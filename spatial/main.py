@@ -26,6 +26,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from spatial.grid import run_simulation, STRATEGY_NAMES
 from spatial.visualizations import animate_all, plot_final_static, setup_style
+from spatial.inequality import run_inequality_analysis
 
 PLOTS_DIR = Path("prisoners_dilemma/spatial/plots")
 
@@ -92,6 +93,9 @@ def main(
     if not no_anim:
         print("\nGenerating animations (this may take a moment)...")
         animate_all(history, output_dir=PLOTS_DIR, fps=fps)
+
+    print("\nRunning inequality analysis...")
+    run_inequality_analysis(history, output_dir=PLOTS_DIR)
 
     print(f"\nAll output saved to {PLOTS_DIR}/")
 

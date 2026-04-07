@@ -13,9 +13,10 @@ The key insight: cooperation can survive if cooperators cluster together. A coop
 ## Setup
 
 - **Grid**: √N × √N toroidal grid (edges wrap around, no boundary effects)
-- **Neighbourhood**: Moore (8 neighbours) or von Neumann (4 neighbours)
+- **Neighbourhood**: Moore (8 neighbours) or von Neumann (4 neighbours) — `--neighbourhood` flag
+- **Generations**: controlled via `--generations` flag
 - **Each generation**:
-  1. Every player plays 5 rounds of PD against each of their neighbours
+  1. Every player plays `--rounds` rounds of PD against each of their neighbours
   2. Each player then adopts the strategy of their highest-scoring neighbour (or keeps their own if they won) — the **imitate-the-best** update rule
 - **Strategies**: same catalogue as the tournament — Always Cooperate, Always Defect, Random(p=0.2/0.4/0.6/0.8), Tit-for-Tat
 - **Initial assignment**: uniform random across all strategies
@@ -94,9 +95,66 @@ Try `--neighbourhood von_neumann` to see TfT take longer to dominate but follow 
 
 ---
 
+## Inequality Analysis (Lorenz / Gini)
+
+`spatial/inequality.py` runs automatically as part of `main.py` and produces four plots.
+
+### What the numbers show (32×32, Moore, generation 1, seed=42)
+
+| Strategy | Gini | Mean payoff | Std |
+|---|---|---|---|
+| Tit-for-Tat | 0.0806 | 88.3 | 12.6 |
+| Always Defect | 0.0974 | 117.4 | 20.2 |
+| Random(p=0.2) | 0.1015 | 107.5 | 19.5 |
+| Random(p=0.4) | 0.1021 | 98.6 | 18.0 |
+| Random(p=0.6) | 0.1137 | 87.1 | 17.7 |
+| Random(p=0.8) | 0.1193 | 82.6 | 17.5 |
+| Always Cooperate | 0.1272 | 70.4 | 15.9 |
+| **Whole Population** | **0.1379** | **92.2** | **22.7** |
+
+Compare this to the tournament, where within-strategy Gini was 0.002–0.004. Here it is 0.08–0.13 — **neighbourhood luck genuinely matters**. Where you start on the grid shapes your fate in a way that doesn't exist in the round-robin.
+
+### Why the spatial Gini is so much higher
+
+In the tournament, every player faces exactly the same 999 opponents. Luck barely enters. In the spatial model, a TfT player who happens to start surrounded by other TfT players earns close to the maximum from turn 1. A TfT player who starts surrounded by AD players earns almost nothing in early generations. Same strategy, radically different outcomes depending on initial placement.
+
+### Always Cooperate: highest inequality, lowest mean
+
+AC has both the worst average payoff (70.4) and the highest within-strategy Gini (0.127). The two facts are linked: AC players in a good neighbourhood (surrounded by TfT or other AC) do reasonably well; AC players in a bad neighbourhood (surrounded by AD) are completely wiped out. The spread is enormous. This is what pure exploitability looks like spatially.
+
+### TfT: lowest inequality despite being in a mixed world
+
+TfT's Gini of 0.081 is the lowest of any strategy. Even in a chaotic generation-1 population, TfT clusters provide enough mutual protection that outcomes are relatively even across TfT players. The cluster structure buffers individual TfT players from the worst neighbourhood effects.
+
+### The collapse
+
+By generation 18, TfT has fixed at 100% of the population and every cell earns exactly 120. The Gini for every strategy and for the whole population drops to exactly 0. The `10_spatial_gini_over_generations.png` plot shows this collapse — inequality dissolves as cooperation takes over. It is arguably the most elegant single visualisation this project produces.
+
+---
+
+## Outputs
+
+All plots saved to `spatial/plots/`:
+
+| File | Description |
+|---|---|
+| `01_strategy_map_final.png` | Strategy per cell, final generation |
+| `02_avg_payoff_final.png` | Avg payoff per round per cell, final generation |
+| `03_total_payoff_final.png` | Total payoff per cell, final generation |
+| `anim_strategy_map.gif` | Strategy cluster evolution across all generations |
+| `anim_avg_payoff.gif` | Avg payoff heatmap animated |
+| `anim_total_payoff.gif` | Total payoff heatmap animated |
+| `07_spatial_lorenz_by_strategy.png` | Lorenz curves per strategy, generation 1 |
+| `08_spatial_lorenz_population.png` | Whole-population Lorenz curve, generation 1 |
+| `09_spatial_gini_bar.png` | Gini bar chart per strategy, generation 1 |
+| `10_spatial_gini_over_generations.png` | Gini trajectory across all generations |
+
+---
+
 ## What To Try Next
 
 - `--seed N` with different seeds to see how initial random placement affects the invasion dynamics
 - `--side 64` for a 64×64 grid (4,096 players) — richer cluster structures, more dramatic visuals
 - `--generations 10` with `--neighbourhood von_neumann` — slower burn, more visible boundary dynamics
 - Add noise (flip actions with probability ε) to see if TfT remains stable when communication is imperfect — this is where Generous TfT becomes relevant (see `extensions.md`)
+- Mutation: with probability μ a player randomly switches strategy instead of imitating best — prevents fixation and allows re-invasion
