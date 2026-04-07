@@ -1,0 +1,883 @@
+resident,invader,initial_fraction,mean_final_fraction,std_final_fraction,invasion_rate,mean_generations,n_seeds
+Always Cooperate,Always Defect,0.01,0.97431640625,0.017666755459630513,1.0,47.82,50
+Always Cooperate,Always Defect,0.02,0.98369140625,0.012548438440035581,1.0,42.16,50
+Always Cooperate,Always Defect,0.05,0.9899609375,0.010675924746850491,1.0,31.76,50
+Always Cooperate,Always Defect,0.1,0.9934375,0.00845391876743015,1.0,25.74,50
+Always Cooperate,Always Defect,0.15,0.99513671875,0.007239666612850228,1.0,21.32,50
+Always Cooperate,Always Defect,0.2,0.997421875,0.004493660334197396,1.0,15.42,50
+Always Cooperate,Always Defect,0.25,0.99916015625,0.002998695660892157,1.0,6.46,50
+Always Cooperate,Always Defect,0.3,0.9991796875,0.0028410540315531216,1.0,5.94,50
+Always Cooperate,Always Defect,0.35,0.99982421875,0.0012429611388044607,1.0,2.98,50
+Always Cooperate,Always Defect,0.4,0.999765625,0.0016572815184059944,1.0,2.96,50
+Always Cooperate,Always Defect,0.45,1.0,0.0,1.0,1.94,50
+Always Cooperate,Always Defect,0.5,1.0,0.0,1.0,1.86,50
+Always Cooperate,Always Defect,0.55,1.0,0.0,1.0,1.62,50
+Always Cooperate,Always Defect,0.6,1.0,0.0,1.0,1.36,50
+Always Cooperate,Always Defect,0.65,1.0,0.0,1.0,1.18,50
+Always Cooperate,Always Defect,0.7,1.0,0.0,1.0,1.1,50
+Always Cooperate,Always Defect,0.75,1.0,0.0,1.0,1.1,50
+Always Cooperate,Always Defect,0.8,1.0,0.0,1.0,1.0,50
+Always Cooperate,Always Defect,0.85,1.0,0.0,1.0,1.0,50
+Always Cooperate,Always Defect,0.9,1.0,0.0,1.0,1.0,50
+Always Cooperate,Always Defect,0.95,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.2),0.01,1.0,0.0,1.0,11.38,50
+Always Cooperate,Random(p=0.2),0.02,1.0,0.0,1.0,9.02,50
+Always Cooperate,Random(p=0.2),0.05,1.0,0.0,1.0,6.62,50
+Always Cooperate,Random(p=0.2),0.1,1.0,0.0,1.0,5.08,50
+Always Cooperate,Random(p=0.2),0.15,1.0,0.0,1.0,4.12,50
+Always Cooperate,Random(p=0.2),0.2,1.0,0.0,1.0,3.58,50
+Always Cooperate,Random(p=0.2),0.25,1.0,0.0,1.0,2.56,50
+Always Cooperate,Random(p=0.2),0.3,1.0,0.0,1.0,2.14,50
+Always Cooperate,Random(p=0.2),0.35,1.0,0.0,1.0,2.04,50
+Always Cooperate,Random(p=0.2),0.4,1.0,0.0,1.0,2.0,50
+Always Cooperate,Random(p=0.2),0.45,1.0,0.0,1.0,1.96,50
+Always Cooperate,Random(p=0.2),0.5,1.0,0.0,1.0,2.0,50
+Always Cooperate,Random(p=0.2),0.55,1.0,0.0,1.0,1.5,50
+Always Cooperate,Random(p=0.2),0.6,1.0,0.0,1.0,1.28,50
+Always Cooperate,Random(p=0.2),0.65,1.0,0.0,1.0,1.1,50
+Always Cooperate,Random(p=0.2),0.7,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.2),0.75,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.2),0.8,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.2),0.85,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.2),0.9,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.2),0.95,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.4),0.01,1.0,0.0,1.0,10.5,50
+Always Cooperate,Random(p=0.4),0.02,1.0,0.0,1.0,8.16,50
+Always Cooperate,Random(p=0.4),0.05,1.0,0.0,1.0,5.6,50
+Always Cooperate,Random(p=0.4),0.1,1.0,0.0,1.0,4.26,50
+Always Cooperate,Random(p=0.4),0.15,1.0,0.0,1.0,3.46,50
+Always Cooperate,Random(p=0.4),0.2,1.0,0.0,1.0,3.18,50
+Always Cooperate,Random(p=0.4),0.25,1.0,0.0,1.0,2.5,50
+Always Cooperate,Random(p=0.4),0.3,1.0,0.0,1.0,2.12,50
+Always Cooperate,Random(p=0.4),0.35,1.0,0.0,1.0,2.08,50
+Always Cooperate,Random(p=0.4),0.4,1.0,0.0,1.0,2.0,50
+Always Cooperate,Random(p=0.4),0.45,1.0,0.0,1.0,1.96,50
+Always Cooperate,Random(p=0.4),0.5,1.0,0.0,1.0,1.84,50
+Always Cooperate,Random(p=0.4),0.55,1.0,0.0,1.0,1.58,50
+Always Cooperate,Random(p=0.4),0.6,1.0,0.0,1.0,1.24,50
+Always Cooperate,Random(p=0.4),0.65,1.0,0.0,1.0,1.18,50
+Always Cooperate,Random(p=0.4),0.7,1.0,0.0,1.0,1.04,50
+Always Cooperate,Random(p=0.4),0.75,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.4),0.8,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.4),0.85,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.4),0.9,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.4),0.95,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.6),0.01,1.0,0.0,1.0,10.34,50
+Always Cooperate,Random(p=0.6),0.02,1.0,0.0,1.0,8.16,50
+Always Cooperate,Random(p=0.6),0.05,1.0,0.0,1.0,5.42,50
+Always Cooperate,Random(p=0.6),0.1,1.0,0.0,1.0,4.2,50
+Always Cooperate,Random(p=0.6),0.15,1.0,0.0,1.0,3.3,50
+Always Cooperate,Random(p=0.6),0.2,1.0,0.0,1.0,3.04,50
+Always Cooperate,Random(p=0.6),0.25,1.0,0.0,1.0,2.64,50
+Always Cooperate,Random(p=0.6),0.3,1.0,0.0,1.0,2.1,50
+Always Cooperate,Random(p=0.6),0.35,1.0,0.0,1.0,2.04,50
+Always Cooperate,Random(p=0.6),0.4,1.0,0.0,1.0,2.0,50
+Always Cooperate,Random(p=0.6),0.45,1.0,0.0,1.0,1.98,50
+Always Cooperate,Random(p=0.6),0.5,1.0,0.0,1.0,1.86,50
+Always Cooperate,Random(p=0.6),0.55,1.0,0.0,1.0,1.72,50
+Always Cooperate,Random(p=0.6),0.6,1.0,0.0,1.0,1.42,50
+Always Cooperate,Random(p=0.6),0.65,1.0,0.0,1.0,1.24,50
+Always Cooperate,Random(p=0.6),0.7,1.0,0.0,1.0,1.12,50
+Always Cooperate,Random(p=0.6),0.75,1.0,0.0,1.0,1.06,50
+Always Cooperate,Random(p=0.6),0.8,1.0,0.0,1.0,1.02,50
+Always Cooperate,Random(p=0.6),0.85,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.6),0.9,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.6),0.95,1.0,0.0,1.0,1.0,50
+Always Cooperate,Random(p=0.8),0.01,1.0,0.0,1.0,10.54,50
+Always Cooperate,Random(p=0.8),0.02,1.0,0.0,1.0,8.46,50
+Always Cooperate,Random(p=0.8),0.05,1.0,0.0,1.0,5.74,50
+Always Cooperate,Random(p=0.8),0.1,1.0,0.0,1.0,4.34,50
+Always Cooperate,Random(p=0.8),0.15,1.0,0.0,1.0,3.48,50
+Always Cooperate,Random(p=0.8),0.2,1.0,0.0,1.0,3.1,50
+Always Cooperate,Random(p=0.8),0.25,1.0,0.0,1.0,2.78,50
+Always Cooperate,Random(p=0.8),0.3,1.0,0.0,1.0,2.34,50
+Always Cooperate,Random(p=0.8),0.35,1.0,0.0,1.0,2.14,50
+Always Cooperate,Random(p=0.8),0.4,1.0,0.0,1.0,2.06,50
+Always Cooperate,Random(p=0.8),0.45,1.0,0.0,1.0,2.04,50
+Always Cooperate,Random(p=0.8),0.5,1.0,0.0,1.0,1.94,50
+Always Cooperate,Random(p=0.8),0.55,1.0,0.0,1.0,1.82,50
+Always Cooperate,Random(p=0.8),0.6,1.0,0.0,1.0,1.74,50
+Always Cooperate,Random(p=0.8),0.65,1.0,0.0,1.0,1.58,50
+Always Cooperate,Random(p=0.8),0.7,1.0,0.0,1.0,1.48,50
+Always Cooperate,Random(p=0.8),0.75,1.0,0.0,1.0,1.3,50
+Always Cooperate,Random(p=0.8),0.8,1.0,0.0,1.0,1.2,50
+Always Cooperate,Random(p=0.8),0.85,1.0,0.0,1.0,1.22,50
+Always Cooperate,Random(p=0.8),0.9,1.0,0.0,1.0,1.1,50
+Always Cooperate,Random(p=0.8),0.95,1.0,0.0,1.0,1.06,50
+Always Cooperate,Tit-for-Tat,0.01,0.009765625,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.02,0.01953125,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.05,0.0498046875,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.1,0.099609375,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.15,0.150390625,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.2,0.2001953125,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.25,0.25,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.3,0.2998046875,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.35,0.349609375,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.4,0.400390625,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.45,0.4501953125,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.5,0.5,0.0,0.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.55,0.5498046875,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.6,0.599609375,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.65,0.650390625,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.7,0.7001953125,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.75,0.75,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.8,0.7998046875,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.85,0.849609375,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.9,0.900390625,0.0,1.0,50.0,50
+Always Cooperate,Tit-for-Tat,0.95,0.9501953125,0.0,1.0,50.0,50
+Always Defect,Always Cooperate,0.01,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.02,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.05,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.1,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.15,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.2,0.0,0.0,0.0,1.0,50
+Always Defect,Always Cooperate,0.25,0.0,0.0,0.0,1.02,50
+Always Defect,Always Cooperate,0.3,0.0,0.0,0.0,1.08,50
+Always Defect,Always Cooperate,0.35,0.0,0.0,0.0,1.26,50
+Always Defect,Always Cooperate,0.4,0.0,0.0,0.0,1.42,50
+Always Defect,Always Cooperate,0.45,0.0,0.0,0.0,1.58,50
+Always Defect,Always Cooperate,0.5,0.0,0.0,0.0,1.9,50
+Always Defect,Always Cooperate,0.55,0.0,0.0,0.0,1.92,50
+Always Defect,Always Cooperate,0.6,0.0,0.0,0.0,2.0,50
+Always Defect,Always Cooperate,0.65,0.0,0.0,0.0,2.04,50
+Always Defect,Always Cooperate,0.7,0.00076171875,0.0031769463807502815,0.0,5.06,50
+Always Defect,Always Cooperate,0.75,0.00064453125,0.0025995870792303905,0.0,5.38,50
+Always Defect,Always Cooperate,0.8,0.00552734375,0.00918348186751503,0.0,20.18,50
+Always Defect,Always Cooperate,0.85,0.00703125,0.007712207009534182,0.0,29.72,50
+Always Defect,Always Cooperate,0.9,0.00966796875,0.009768115913189344,0.0,33.94,50
+Always Defect,Always Cooperate,0.95,0.012265625,0.011834699548397038,0.0,37.18,50
+Always Defect,Random(p=0.2),0.01,0.01544921875,0.10924247342159359,0.02,1.98,50
+Always Defect,Random(p=0.2),0.02,0.0,0.0,0.0,1.08,50
+Always Defect,Random(p=0.2),0.05,0.0156640625,0.11076164814679904,0.02,2.3,50
+Always Defect,Random(p=0.2),0.1,0.09318359375,0.25518124874243153,0.12,7.78,50
+Always Defect,Random(p=0.2),0.15,0.3082421875,0.38404767086974806,0.4,21.82,50
+Always Defect,Random(p=0.2),0.2,0.50662109375,0.38651619209182936,0.64,33.0,50
+Always Defect,Random(p=0.2),0.25,0.69087890625,0.2695111901514179,0.86,44.4,50
+Always Defect,Random(p=0.2),0.3,0.684921875,0.2853106481335683,0.86,43.66,50
+Always Defect,Random(p=0.2),0.35,0.78490234375,0.12444991072332182,0.98,49.08,50
+Always Defect,Random(p=0.2),0.4,0.8276953125,0.04662778266859368,1.0,50.0,50
+Always Defect,Random(p=0.2),0.45,0.8293359375,0.05318916173919884,1.0,50.0,50
+Always Defect,Random(p=0.2),0.5,0.8229296875,0.05097918156586083,1.0,50.0,50
+Always Defect,Random(p=0.2),0.55,0.81953125,0.04839210618260405,1.0,50.0,50
+Always Defect,Random(p=0.2),0.6,0.835,0.04582733888888246,1.0,50.0,50
+Always Defect,Random(p=0.2),0.65,0.8383203125,0.04082735885685092,1.0,50.0,50
+Always Defect,Random(p=0.2),0.7,0.844765625,0.04297869565440369,1.0,50.0,50
+Always Defect,Random(p=0.2),0.75,0.84623046875,0.041273055749052025,1.0,50.0,50
+Always Defect,Random(p=0.2),0.8,0.83755859375,0.04563013113515796,1.0,50.0,50
+Always Defect,Random(p=0.2),0.85,0.83919921875,0.05234861696956127,1.0,50.0,50
+Always Defect,Random(p=0.2),0.9,0.86328125,0.04034631017081629,1.0,50.0,50
+Always Defect,Random(p=0.2),0.95,0.87435546875,0.045726000272599036,1.0,50.0,50
+Always Defect,Random(p=0.4),0.01,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.4),0.02,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.4),0.05,0.0,0.0,0.0,1.02,50
+Always Defect,Random(p=0.4),0.1,0.0,0.0,0.0,1.24,50
+Always Defect,Random(p=0.4),0.15,0.02041015625,0.08598397153826139,0.0,4.5,50
+Always Defect,Random(p=0.4),0.2,0.01236328125,0.06749856902643515,0.0,4.02,50
+Always Defect,Random(p=0.4),0.25,0.07619140625,0.14776722097445127,0.0,13.58,50
+Always Defect,Random(p=0.4),0.3,0.0774609375,0.16143943316043127,0.02,11.88,50
+Always Defect,Random(p=0.4),0.35,0.13,0.17234470709978336,0.0,20.88,50
+Always Defect,Random(p=0.4),0.4,0.18447265625,0.1924594563268449,0.04,28.0,50
+Always Defect,Random(p=0.4),0.45,0.245859375,0.20403671439842577,0.12,33.14,50
+Always Defect,Random(p=0.4),0.5,0.29935546875,0.17596232015678906,0.08,41.02,50
+Always Defect,Random(p=0.4),0.55,0.35828125,0.18747131128178235,0.24,42.3,50
+Always Defect,Random(p=0.4),0.6,0.42513671875,0.14511833956396805,0.32,47.94,50
+Always Defect,Random(p=0.4),0.65,0.45625,0.1351636342097791,0.44,47.32,50
+Always Defect,Random(p=0.4),0.7,0.48568359375,0.06311899819152621,0.42,50.0,50
+Always Defect,Random(p=0.4),0.75,0.486640625,0.054621421107052724,0.4,50.0,50
+Always Defect,Random(p=0.4),0.8,0.484453125,0.058111402182155374,0.26,50.0,50
+Always Defect,Random(p=0.4),0.85,0.48419921875,0.05274754550786221,0.48,50.0,50
+Always Defect,Random(p=0.4),0.9,0.49728515625,0.05314440241264881,0.5,50.0,50
+Always Defect,Random(p=0.4),0.95,0.5002734375,0.04821402736372581,0.54,50.0,50
+Always Defect,Random(p=0.6),0.01,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.6),0.02,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.6),0.05,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.6),0.1,0.0,0.0,0.0,1.02,50
+Always Defect,Random(p=0.6),0.15,0.0,0.0,0.0,1.08,50
+Always Defect,Random(p=0.6),0.2,0.0,0.0,0.0,1.44,50
+Always Defect,Random(p=0.6),0.25,0.0,0.0,0.0,1.58,50
+Always Defect,Random(p=0.6),0.3,0.0015234375,0.01077232986963881,0.0,3.2,50
+Always Defect,Random(p=0.6),0.35,0.00390625,0.018478482912721483,0.0,5.92,50
+Always Defect,Random(p=0.6),0.4,0.001015625,0.0050607717134463414,0.0,4.98,50
+Always Defect,Random(p=0.6),0.45,0.0015625,0.01104854345603981,0.0,6.2,50
+Always Defect,Random(p=0.6),0.5,0.01451171875,0.030607514956692894,0.0,15.3,50
+Always Defect,Random(p=0.6),0.55,0.0065625,0.018865238978321573,0.0,11.1,50
+Always Defect,Random(p=0.6),0.6,0.01607421875,0.02835102217577687,0.0,24.06,50
+Always Defect,Random(p=0.6),0.65,0.01384765625,0.030395464391015314,0.0,19.36,50
+Always Defect,Random(p=0.6),0.7,0.02669921875,0.034019938041625924,0.0,32.48,50
+Always Defect,Random(p=0.6),0.75,0.040625,0.04784973217292911,0.0,36.0,50
+Always Defect,Random(p=0.6),0.8,0.076484375,0.06074214264180705,0.0,46.0,50
+Always Defect,Random(p=0.6),0.85,0.10583984375,0.06724211397232419,0.0,49.3,50
+Always Defect,Random(p=0.6),0.9,0.14234375,0.06836921394208795,0.0,50.0,50
+Always Defect,Random(p=0.6),0.95,0.1726171875,0.06695107756644902,0.0,50.0,50
+Always Defect,Random(p=0.8),0.01,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.8),0.02,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.8),0.05,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.8),0.1,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.8),0.15,0.0,0.0,0.0,1.0,50
+Always Defect,Random(p=0.8),0.2,0.0,0.0,0.0,1.06,50
+Always Defect,Random(p=0.8),0.25,0.0,0.0,0.0,1.06,50
+Always Defect,Random(p=0.8),0.3,0.0,0.0,0.0,1.28,50
+Always Defect,Random(p=0.8),0.35,0.0,0.0,0.0,1.54,50
+Always Defect,Random(p=0.8),0.4,0.0,0.0,0.0,1.52,50
+Always Defect,Random(p=0.8),0.45,0.0,0.0,0.0,2.16,50
+Always Defect,Random(p=0.8),0.5,0.0,0.0,0.0,1.96,50
+Always Defect,Random(p=0.8),0.55,0.0,0.0,0.0,2.0,50
+Always Defect,Random(p=0.8),0.6,0.0002734375,0.0019334951048069662,0.0,4.94,50
+Always Defect,Random(p=0.8),0.65,0.00080078125,0.0040225531367828315,0.0,4.48,50
+Always Defect,Random(p=0.8),0.7,0.000390625,0.0027621358640099515,0.0,5.48,50
+Always Defect,Random(p=0.8),0.75,0.00103515625,0.004435462547514451,0.0,9.64,50
+Always Defect,Random(p=0.8),0.8,0.00630859375,0.011739011104067115,0.0,20.02,50
+Always Defect,Random(p=0.8),0.85,0.012578125,0.014968001301389124,0.0,32.6,50
+Always Defect,Random(p=0.8),0.9,0.02037109375,0.019602876078348513,0.0,46.5,50
+Always Defect,Random(p=0.8),0.95,0.0244140625,0.022211293584555095,0.0,46.88,50
+Always Defect,Tit-for-Tat,0.01,0.0,0.0,0.0,1.0,50
+Always Defect,Tit-for-Tat,0.02,0.1,0.30304576336566325,0.1,2.52,50
+Always Defect,Tit-for-Tat,0.05,0.84,0.3703280399090206,0.84,13.18,50
+Always Defect,Tit-for-Tat,0.1,1.0,0.0,1.0,10.04,50
+Always Defect,Tit-for-Tat,0.15,1.0,0.0,1.0,6.88,50
+Always Defect,Tit-for-Tat,0.2,1.0,0.0,1.0,5.5,50
+Always Defect,Tit-for-Tat,0.25,1.0,0.0,1.0,4.5,50
+Always Defect,Tit-for-Tat,0.3,1.0,0.0,1.0,3.8,50
+Always Defect,Tit-for-Tat,0.35,1.0,0.0,1.0,3.28,50
+Always Defect,Tit-for-Tat,0.4,1.0,0.0,1.0,2.98,50
+Always Defect,Tit-for-Tat,0.45,1.0,0.0,1.0,2.58,50
+Always Defect,Tit-for-Tat,0.5,1.0,0.0,1.0,2.18,50
+Always Defect,Tit-for-Tat,0.55,1.0,0.0,1.0,2.0,50
+Always Defect,Tit-for-Tat,0.6,1.0,0.0,1.0,2.0,50
+Always Defect,Tit-for-Tat,0.65,1.0,0.0,1.0,1.86,50
+Always Defect,Tit-for-Tat,0.7,1.0,0.0,1.0,1.38,50
+Always Defect,Tit-for-Tat,0.75,1.0,0.0,1.0,1.22,50
+Always Defect,Tit-for-Tat,0.8,1.0,0.0,1.0,1.06,50
+Always Defect,Tit-for-Tat,0.85,1.0,0.0,1.0,1.0,50
+Always Defect,Tit-for-Tat,0.9,1.0,0.0,1.0,1.0,50
+Always Defect,Tit-for-Tat,0.95,1.0,0.0,1.0,1.0,50
+Random(p=0.2),Always Cooperate,0.01,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.02,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.05,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.1,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.15,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.2,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Always Cooperate,0.25,0.0,0.0,0.0,1.02,50
+Random(p=0.2),Always Cooperate,0.3,0.0,0.0,0.0,1.08,50
+Random(p=0.2),Always Cooperate,0.35,0.0,0.0,0.0,1.12,50
+Random(p=0.2),Always Cooperate,0.4,0.0,0.0,0.0,1.28,50
+Random(p=0.2),Always Cooperate,0.45,0.0,0.0,0.0,1.46,50
+Random(p=0.2),Always Cooperate,0.5,0.0,0.0,0.0,1.86,50
+Random(p=0.2),Always Cooperate,0.55,0.0,0.0,0.0,1.94,50
+Random(p=0.2),Always Cooperate,0.6,0.0,0.0,0.0,2.0,50
+Random(p=0.2),Always Cooperate,0.65,0.0,0.0,0.0,2.02,50
+Random(p=0.2),Always Cooperate,0.7,0.0,0.0,0.0,2.16,50
+Random(p=0.2),Always Cooperate,0.75,0.0,0.0,0.0,2.42,50
+Random(p=0.2),Always Cooperate,0.8,0.0,0.0,0.0,3.28,50
+Random(p=0.2),Always Cooperate,0.85,0.0,0.0,0.0,4.24,50
+Random(p=0.2),Always Cooperate,0.9,0.0,0.0,0.0,5.02,50
+Random(p=0.2),Always Cooperate,0.95,0.0,0.0,0.0,6.66,50
+Random(p=0.2),Always Defect,0.01,0.044140625,0.03786838744938291,0.0,48.06,50
+Random(p=0.2),Always Defect,0.02,0.07658203125,0.03522819510073154,0.0,50.0,50
+Random(p=0.2),Always Defect,0.05,0.124375,0.04873147321990909,0.0,50.0,50
+Random(p=0.2),Always Defect,0.1,0.146953125,0.05025662331257967,0.0,50.0,50
+Random(p=0.2),Always Defect,0.15,0.157421875,0.03965785151696905,0.0,50.0,50
+Random(p=0.2),Always Defect,0.2,0.168359375,0.044206503068038125,0.0,50.0,50
+Random(p=0.2),Always Defect,0.25,0.16302734375,0.04384018303022474,0.0,50.0,50
+Random(p=0.2),Always Defect,0.3,0.1763671875,0.04229214952908516,0.0,50.0,50
+Random(p=0.2),Always Defect,0.35,0.15814453125,0.05088325352513001,0.0,50.0,50
+Random(p=0.2),Always Defect,0.4,0.16015625,0.047658994358920036,0.0,50.0,50
+Random(p=0.2),Always Defect,0.45,0.16380859375,0.044656287216777044,0.0,50.0,50
+Random(p=0.2),Always Defect,0.5,0.17431640625,0.04315913386506201,0.0,50.0,50
+Random(p=0.2),Always Defect,0.55,0.17521484375,0.03762402945856147,0.0,50.0,50
+Random(p=0.2),Always Defect,0.6,0.18310546875,0.04992870385834395,0.0,50.0,50
+Random(p=0.2),Always Defect,0.65,0.2175,0.12023242395704882,0.02,49.06,50
+Random(p=0.2),Always Defect,0.7,0.2913671875,0.2705407098563407,0.12,44.38,50
+Random(p=0.2),Always Defect,0.75,0.36912109375,0.3253825267540371,0.2,40.6,50
+Random(p=0.2),Always Defect,0.8,0.50251953125,0.3798961632135067,0.36,32.94,50
+Random(p=0.2),Always Defect,0.85,0.71609375,0.3687629267281698,0.62,20.64,50
+Random(p=0.2),Always Defect,0.9,0.8984375,0.25508657291773734,0.86,8.92,50
+Random(p=0.2),Always Defect,0.95,0.9701953125,0.14858365543064556,0.96,3.36,50
+Random(p=0.2),Random(p=0.4),0.01,0.0,0.0,0.0,1.42,50
+Random(p=0.2),Random(p=0.4),0.02,0.0,0.0,0.0,2.04,50
+Random(p=0.2),Random(p=0.4),0.05,9.765625e-05,0.000690533966002488,0.0,6.16,50
+Random(p=0.2),Random(p=0.4),0.1,0.0002734375,0.0019334951048069662,0.0,7.9,50
+Random(p=0.2),Random(p=0.4),0.15,0.00095703125,0.006767232866824381,0.0,11.28,50
+Random(p=0.2),Random(p=0.4),0.2,0.0052734375,0.015487376212475354,0.0,16.76,50
+Random(p=0.2),Random(p=0.4),0.25,0.005234375,0.01466604490265643,0.0,19.94,50
+Random(p=0.2),Random(p=0.4),0.3,0.0077734375,0.020416939852876945,0.0,25.16,50
+Random(p=0.2),Random(p=0.4),0.35,0.00697265625,0.020847143669096662,0.0,22.78,50
+Random(p=0.2),Random(p=0.4),0.4,0.00861328125,0.02551731571018575,0.0,27.94,50
+Random(p=0.2),Random(p=0.4),0.45,0.0107421875,0.025085241615318676,0.0,29.26,50
+Random(p=0.2),Random(p=0.4),0.5,0.01296875,0.03212466254792043,0.0,32.42,50
+Random(p=0.2),Random(p=0.4),0.55,0.025,0.036989076461076985,0.0,36.14,50
+Random(p=0.2),Random(p=0.4),0.6,0.02705078125,0.036973419429975715,0.0,39.6,50
+Random(p=0.2),Random(p=0.4),0.65,0.0271484375,0.04198175779649245,0.0,43.5,50
+Random(p=0.2),Random(p=0.4),0.7,0.05693359375,0.049222043850596836,0.0,47.68,50
+Random(p=0.2),Random(p=0.4),0.75,0.05521484375,0.0497924584513701,0.0,47.78,50
+Random(p=0.2),Random(p=0.4),0.8,0.06376953125,0.06022917298192078,0.0,47.86,50
+Random(p=0.2),Random(p=0.4),0.85,0.05935546875,0.05334872868592592,0.0,47.98,50
+Random(p=0.2),Random(p=0.4),0.9,0.081171875,0.059450331613122534,0.0,48.94,50
+Random(p=0.2),Random(p=0.4),0.95,0.1324609375,0.07125390631774028,0.0,49.96,50
+Random(p=0.2),Random(p=0.6),0.01,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Random(p=0.6),0.02,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Random(p=0.6),0.05,0.0,0.0,0.0,1.34,50
+Random(p=0.2),Random(p=0.6),0.1,0.0,0.0,0.0,1.78,50
+Random(p=0.2),Random(p=0.6),0.15,0.0,0.0,0.0,1.8,50
+Random(p=0.2),Random(p=0.6),0.2,0.0,0.0,0.0,2.28,50
+Random(p=0.2),Random(p=0.6),0.25,0.0,0.0,0.0,2.72,50
+Random(p=0.2),Random(p=0.6),0.3,0.0,0.0,0.0,2.94,50
+Random(p=0.2),Random(p=0.6),0.35,0.0,0.0,0.0,3.5,50
+Random(p=0.2),Random(p=0.6),0.4,0.0,0.0,0.0,3.64,50
+Random(p=0.2),Random(p=0.6),0.45,0.0,0.0,0.0,4.9,50
+Random(p=0.2),Random(p=0.6),0.5,0.0,0.0,0.0,5.8,50
+Random(p=0.2),Random(p=0.6),0.55,0.0,0.0,0.0,6.74,50
+Random(p=0.2),Random(p=0.6),0.6,0.0,0.0,0.0,8.0,50
+Random(p=0.2),Random(p=0.6),0.65,0.0,0.0,0.0,9.0,50
+Random(p=0.2),Random(p=0.6),0.7,0.0,0.0,0.0,11.82,50
+Random(p=0.2),Random(p=0.6),0.75,0.0,0.0,0.0,13.0,50
+Random(p=0.2),Random(p=0.6),0.8,0.0,0.0,0.0,14.52,50
+Random(p=0.2),Random(p=0.6),0.85,0.0,0.0,0.0,17.02,50
+Random(p=0.2),Random(p=0.6),0.9,0.0003515625,0.002485922277608957,0.0,21.08,50
+Random(p=0.2),Random(p=0.6),0.95,0.0010546875,0.004617893050352054,0.0,25.7,50
+Random(p=0.2),Random(p=0.8),0.01,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Random(p=0.8),0.02,0.0,0.0,0.0,1.0,50
+Random(p=0.2),Random(p=0.8),0.05,0.0,0.0,0.0,1.02,50
+Random(p=0.2),Random(p=0.8),0.1,0.0,0.0,0.0,1.02,50
+Random(p=0.2),Random(p=0.8),0.15,0.0,0.0,0.0,1.12,50
+Random(p=0.2),Random(p=0.8),0.2,0.0,0.0,0.0,1.18,50
+Random(p=0.2),Random(p=0.8),0.25,0.0,0.0,0.0,1.28,50
+Random(p=0.2),Random(p=0.8),0.3,0.0,0.0,0.0,1.36,50
+Random(p=0.2),Random(p=0.8),0.35,0.0,0.0,0.0,1.66,50
+Random(p=0.2),Random(p=0.8),0.4,0.0,0.0,0.0,1.92,50
+Random(p=0.2),Random(p=0.8),0.45,0.0,0.0,0.0,1.92,50
+Random(p=0.2),Random(p=0.8),0.5,0.0,0.0,0.0,2.08,50
+Random(p=0.2),Random(p=0.8),0.55,0.0,0.0,0.0,2.08,50
+Random(p=0.2),Random(p=0.8),0.6,0.0,0.0,0.0,2.3,50
+Random(p=0.2),Random(p=0.8),0.65,0.0,0.0,0.0,2.52,50
+Random(p=0.2),Random(p=0.8),0.7,0.0,0.0,0.0,2.92,50
+Random(p=0.2),Random(p=0.8),0.75,0.0,0.0,0.0,4.12,50
+Random(p=0.2),Random(p=0.8),0.8,0.0,0.0,0.0,4.7,50
+Random(p=0.2),Random(p=0.8),0.85,0.0,0.0,0.0,8.12,50
+Random(p=0.2),Random(p=0.8),0.9,0.0,0.0,0.0,9.66,50
+Random(p=0.2),Random(p=0.8),0.95,0.0,0.0,0.0,13.7,50
+Random(p=0.2),Tit-for-Tat,0.01,0.04,0.19794866372215741,0.04,1.82,50
+Random(p=0.2),Tit-for-Tat,0.02,0.14,0.3505098327538656,0.14,3.96,50
+Random(p=0.2),Tit-for-Tat,0.05,0.64,0.48487322138506117,0.64,12.24,50
+Random(p=0.2),Tit-for-Tat,0.1,0.96,0.19794866372215741,0.96,14.1,50
+Random(p=0.2),Tit-for-Tat,0.15,1.0,0.0,1.0,10.62,50
+Random(p=0.2),Tit-for-Tat,0.2,1.0,0.0,1.0,8.32,50
+Random(p=0.2),Tit-for-Tat,0.25,1.0,0.0,1.0,6.84,50
+Random(p=0.2),Tit-for-Tat,0.3,1.0,0.0,1.0,5.66,50
+Random(p=0.2),Tit-for-Tat,0.35,1.0,0.0,1.0,4.86,50
+Random(p=0.2),Tit-for-Tat,0.4,1.0,0.0,1.0,4.28,50
+Random(p=0.2),Tit-for-Tat,0.45,1.0,0.0,1.0,3.86,50
+Random(p=0.2),Tit-for-Tat,0.5,1.0,0.0,1.0,3.2,50
+Random(p=0.2),Tit-for-Tat,0.55,1.0,0.0,1.0,2.98,50
+Random(p=0.2),Tit-for-Tat,0.6,1.0,0.0,1.0,2.74,50
+Random(p=0.2),Tit-for-Tat,0.65,1.0,0.0,1.0,2.26,50
+Random(p=0.2),Tit-for-Tat,0.7,1.0,0.0,1.0,2.04,50
+Random(p=0.2),Tit-for-Tat,0.75,1.0,0.0,1.0,2.02,50
+Random(p=0.2),Tit-for-Tat,0.8,1.0,0.0,1.0,1.78,50
+Random(p=0.2),Tit-for-Tat,0.85,1.0,0.0,1.0,1.38,50
+Random(p=0.2),Tit-for-Tat,0.9,1.0,0.0,1.0,1.02,50
+Random(p=0.2),Tit-for-Tat,0.95,1.0,0.0,1.0,1.0,50
+Random(p=0.4),Always Cooperate,0.01,0.0,0.0,0.0,1.0,50
+Random(p=0.4),Always Cooperate,0.02,0.0,0.0,0.0,1.0,50
+Random(p=0.4),Always Cooperate,0.05,0.0,0.0,0.0,1.0,50
+Random(p=0.4),Always Cooperate,0.1,0.0,0.0,0.0,1.0,50
+Random(p=0.4),Always Cooperate,0.15,0.0,0.0,0.0,1.0,50
+Random(p=0.4),Always Cooperate,0.2,0.0,0.0,0.0,1.02,50
+Random(p=0.4),Always Cooperate,0.25,0.0,0.0,0.0,1.02,50
+Random(p=0.4),Always Cooperate,0.3,0.0,0.0,0.0,1.14,50
+Random(p=0.4),Always Cooperate,0.35,0.0,0.0,0.0,1.14,50
+Random(p=0.4),Always Cooperate,0.4,0.0,0.0,0.0,1.36,50
+Random(p=0.4),Always Cooperate,0.45,0.0,0.0,0.0,1.64,50
+Random(p=0.4),Always Cooperate,0.5,0.0,0.0,0.0,1.82,50
+Random(p=0.4),Always Cooperate,0.55,0.0,0.0,0.0,1.96,50
+Random(p=0.4),Always Cooperate,0.6,0.0,0.0,0.0,2.02,50
+Random(p=0.4),Always Cooperate,0.65,0.0,0.0,0.0,2.06,50
+Random(p=0.4),Always Cooperate,0.7,0.0,0.0,0.0,2.1,50
+Random(p=0.4),Always Cooperate,0.75,0.0,0.0,0.0,2.68,50
+Random(p=0.4),Always Cooperate,0.8,0.0,0.0,0.0,2.98,50
+Random(p=0.4),Always Cooperate,0.85,0.0,0.0,0.0,3.46,50
+Random(p=0.4),Always Cooperate,0.9,0.0,0.0,0.0,4.14,50
+Random(p=0.4),Always Cooperate,0.95,0.0,0.0,0.0,5.72,50
+Random(p=0.4),Always Defect,0.01,0.47666015625,0.05710816351964172,0.3,50.0,50
+Random(p=0.4),Always Defect,0.02,0.49685546875,0.052703840277530105,0.48,50.0,50
+Random(p=0.4),Always Defect,0.05,0.49908203125,0.04053708419261516,0.46,50.0,50
+Random(p=0.4),Always Defect,0.1,0.51314453125,0.046915759576254414,0.62,50.0,50
+Random(p=0.4),Always Defect,0.15,0.51837890625,0.05187282282863827,0.58,50.0,50
+Random(p=0.4),Always Defect,0.2,0.51037109375,0.060277186080436314,0.54,50.0,50
+Random(p=0.4),Always Defect,0.25,0.5070703125,0.050252487128813195,0.5,50.0,50
+Random(p=0.4),Always Defect,0.3,0.51130859375,0.06171408586116503,0.54,50.0,50
+Random(p=0.4),Always Defect,0.35,0.53103515625,0.07770416639865907,0.68,50.0,50
+Random(p=0.4),Always Defect,0.4,0.60109375,0.16016381344136696,0.78,45.82,50
+Random(p=0.4),Always Defect,0.45,0.6428515625,0.14202365781897536,0.92,46.6,50
+Random(p=0.4),Always Defect,0.5,0.6756640625,0.1753566344372835,0.88,42.06,50
+Random(p=0.4),Always Defect,0.55,0.73904296875,0.20629142293363903,0.9,34.48,50
+Random(p=0.4),Always Defect,0.6,0.8099609375,0.19719161415971498,0.96,27.72,50
+Random(p=0.4),Always Defect,0.65,0.8876953125,0.17318458808175555,1.0,17.9,50
+Random(p=0.4),Always Defect,0.7,0.91814453125,0.1583400760393618,1.0,13.76,50
+Random(p=0.4),Always Defect,0.75,0.93314453125,0.1499885411978458,0.98,10.76,50
+Random(p=0.4),Always Defect,0.8,0.96591796875,0.11901628445187301,1.0,5.68,50
+Random(p=0.4),Always Defect,0.85,0.9834375,0.0735634059473533,1.0,4.42,50
+Random(p=0.4),Always Defect,0.9,0.9916015625,0.05938592107621395,1.0,2.26,50
+Random(p=0.4),Always Defect,0.95,1.0,0.0,1.0,1.04,50
+Random(p=0.4),Random(p=0.2),0.01,0.5692578125,0.14330614102092357,0.7,50.0,50
+Random(p=0.4),Random(p=0.2),0.02,0.6896875,0.13774181610418473,0.86,50.0,50
+Random(p=0.4),Random(p=0.2),0.05,0.8516796875,0.09156604309092647,1.0,49.7,50
+Random(p=0.4),Random(p=0.2),0.1,0.9112890625,0.05507100067905441,1.0,49.62,50
+Random(p=0.4),Random(p=0.2),0.15,0.93306640625,0.055876142125721576,1.0,48.6,50
+Random(p=0.4),Random(p=0.2),0.2,0.94470703125,0.06057094354255383,1.0,47.82,50
+Random(p=0.4),Random(p=0.2),0.25,0.95544921875,0.0455559736217563,1.0,45.8,50
+Random(p=0.4),Random(p=0.2),0.3,0.963359375,0.04831492099033319,1.0,43.98,50
+Random(p=0.4),Random(p=0.2),0.35,0.96857421875,0.04549732032168796,1.0,42.56,50
+Random(p=0.4),Random(p=0.2),0.4,0.97181640625,0.03467351778581945,1.0,40.76,50
+Random(p=0.4),Random(p=0.2),0.45,0.97044921875,0.04149531676949126,1.0,40.08,50
+Random(p=0.4),Random(p=0.2),0.5,0.9878515625,0.022832766204553864,1.0,35.04,50
+Random(p=0.4),Random(p=0.2),0.55,0.9873828125,0.025893729058980245,1.0,34.16,50
+Random(p=0.4),Random(p=0.2),0.6,0.98931640625,0.022762975516693873,1.0,29.46,50
+Random(p=0.4),Random(p=0.2),0.65,0.9973828125,0.009692487606783574,1.0,22.58,50
+Random(p=0.4),Random(p=0.2),0.7,0.9864453125,0.036676597500710346,1.0,24.22,50
+Random(p=0.4),Random(p=0.2),0.75,0.99248046875,0.020844566793982618,1.0,18.34,50
+Random(p=0.4),Random(p=0.2),0.8,0.99943359375,0.004005097002814433,1.0,13.36,50
+Random(p=0.4),Random(p=0.2),0.85,0.99734375,0.01381918858668467,1.0,14.48,50
+Random(p=0.4),Random(p=0.2),0.9,1.0,0.0,1.0,8.9,50
+Random(p=0.4),Random(p=0.2),0.95,1.0,0.0,1.0,4.22,50
+Random(p=0.4),Random(p=0.6),0.01,0.0,0.0,0.0,1.46,50
+Random(p=0.4),Random(p=0.6),0.02,0.0,0.0,0.0,2.0,50
+Random(p=0.4),Random(p=0.6),0.05,0.0,0.0,0.0,3.06,50
+Random(p=0.4),Random(p=0.6),0.1,0.0,0.0,0.0,3.8,50
+Random(p=0.4),Random(p=0.6),0.15,0.0,0.0,0.0,4.32,50
+Random(p=0.4),Random(p=0.6),0.2,0.0,0.0,0.0,5.38,50
+Random(p=0.4),Random(p=0.6),0.25,0.0,0.0,0.0,6.98,50
+Random(p=0.4),Random(p=0.6),0.3,0.0,0.0,0.0,6.96,50
+Random(p=0.4),Random(p=0.6),0.35,0.0,0.0,0.0,7.78,50
+Random(p=0.4),Random(p=0.6),0.4,0.0,0.0,0.0,8.86,50
+Random(p=0.4),Random(p=0.6),0.45,0.0,0.0,0.0,9.14,50
+Random(p=0.4),Random(p=0.6),0.5,0.0,0.0,0.0,9.42,50
+Random(p=0.4),Random(p=0.6),0.55,0.0,0.0,0.0,11.12,50
+Random(p=0.4),Random(p=0.6),0.6,0.0,0.0,0.0,11.5,50
+Random(p=0.4),Random(p=0.6),0.65,0.0,0.0,0.0,12.66,50
+Random(p=0.4),Random(p=0.6),0.7,0.0,0.0,0.0,13.86,50
+Random(p=0.4),Random(p=0.6),0.75,0.0,0.0,0.0,14.88,50
+Random(p=0.4),Random(p=0.6),0.8,0.0,0.0,0.0,16.38,50
+Random(p=0.4),Random(p=0.6),0.85,0.0,0.0,0.0,19.96,50
+Random(p=0.4),Random(p=0.6),0.9,0.0,0.0,0.0,21.84,50
+Random(p=0.4),Random(p=0.6),0.95,0.0,0.0,0.0,26.86,50
+Random(p=0.4),Random(p=0.8),0.01,0.0,0.0,0.0,1.02,50
+Random(p=0.4),Random(p=0.8),0.02,0.0,0.0,0.0,1.02,50
+Random(p=0.4),Random(p=0.8),0.05,0.0,0.0,0.0,1.08,50
+Random(p=0.4),Random(p=0.8),0.1,0.0,0.0,0.0,1.24,50
+Random(p=0.4),Random(p=0.8),0.15,0.0,0.0,0.0,1.36,50
+Random(p=0.4),Random(p=0.8),0.2,0.0,0.0,0.0,1.56,50
+Random(p=0.4),Random(p=0.8),0.25,0.0,0.0,0.0,1.9,50
+Random(p=0.4),Random(p=0.8),0.3,0.0,0.0,0.0,2.02,50
+Random(p=0.4),Random(p=0.8),0.35,0.0,0.0,0.0,2.22,50
+Random(p=0.4),Random(p=0.8),0.4,0.0,0.0,0.0,2.02,50
+Random(p=0.4),Random(p=0.8),0.45,0.0,0.0,0.0,2.34,50
+Random(p=0.4),Random(p=0.8),0.5,0.0,0.0,0.0,2.42,50
+Random(p=0.4),Random(p=0.8),0.55,0.0,0.0,0.0,2.62,50
+Random(p=0.4),Random(p=0.8),0.6,0.0,0.0,0.0,3.04,50
+Random(p=0.4),Random(p=0.8),0.65,0.0,0.0,0.0,3.18,50
+Random(p=0.4),Random(p=0.8),0.7,0.0,0.0,0.0,3.42,50
+Random(p=0.4),Random(p=0.8),0.75,0.0,0.0,0.0,4.52,50
+Random(p=0.4),Random(p=0.8),0.8,0.0,0.0,0.0,5.2,50
+Random(p=0.4),Random(p=0.8),0.85,0.0,0.0,0.0,6.18,50
+Random(p=0.4),Random(p=0.8),0.9,0.0,0.0,0.0,7.78,50
+Random(p=0.4),Random(p=0.8),0.95,0.0,0.0,0.0,10.72,50
+Random(p=0.4),Tit-for-Tat,0.01,0.08,0.27404751561786966,0.08,3.14,50
+Random(p=0.4),Tit-for-Tat,0.02,0.1,0.30304576336566325,0.1,3.72,50
+Random(p=0.4),Tit-for-Tat,0.05,0.4,0.4948716593053935,0.4,10.9,50
+Random(p=0.4),Tit-for-Tat,0.1,0.82,0.3880879344916036,0.82,17.82,50
+Random(p=0.4),Tit-for-Tat,0.15,1.0,0.0,1.0,17.28,50
+Random(p=0.4),Tit-for-Tat,0.2,1.0,0.0,1.0,13.58,50
+Random(p=0.4),Tit-for-Tat,0.25,1.0,0.0,1.0,11.4,50
+Random(p=0.4),Tit-for-Tat,0.3,1.0,0.0,1.0,9.4,50
+Random(p=0.4),Tit-for-Tat,0.35,1.0,0.0,1.0,8.12,50
+Random(p=0.4),Tit-for-Tat,0.4,1.0,0.0,1.0,6.42,50
+Random(p=0.4),Tit-for-Tat,0.45,1.0,0.0,1.0,5.94,50
+Random(p=0.4),Tit-for-Tat,0.5,1.0,0.0,1.0,5.18,50
+Random(p=0.4),Tit-for-Tat,0.55,1.0,0.0,1.0,4.7,50
+Random(p=0.4),Tit-for-Tat,0.6,1.0,0.0,1.0,4.08,50
+Random(p=0.4),Tit-for-Tat,0.65,1.0,0.0,1.0,3.8,50
+Random(p=0.4),Tit-for-Tat,0.7,1.0,0.0,1.0,3.4,50
+Random(p=0.4),Tit-for-Tat,0.75,1.0,0.0,1.0,2.96,50
+Random(p=0.4),Tit-for-Tat,0.8,1.0,0.0,1.0,2.6,50
+Random(p=0.4),Tit-for-Tat,0.85,1.0,0.0,1.0,2.22,50
+Random(p=0.4),Tit-for-Tat,0.9,1.0,0.0,1.0,1.98,50
+Random(p=0.4),Tit-for-Tat,0.95,1.0,0.0,1.0,1.16,50
+Random(p=0.6),Always Cooperate,0.01,0.0,0.0,0.0,1.0,50
+Random(p=0.6),Always Cooperate,0.02,0.0,0.0,0.0,1.0,50
+Random(p=0.6),Always Cooperate,0.05,0.0,0.0,0.0,1.0,50
+Random(p=0.6),Always Cooperate,0.1,0.0,0.0,0.0,1.0,50
+Random(p=0.6),Always Cooperate,0.15,0.0,0.0,0.0,1.02,50
+Random(p=0.6),Always Cooperate,0.2,0.0,0.0,0.0,1.02,50
+Random(p=0.6),Always Cooperate,0.25,0.0,0.0,0.0,1.1,50
+Random(p=0.6),Always Cooperate,0.3,0.0,0.0,0.0,1.1,50
+Random(p=0.6),Always Cooperate,0.35,0.0,0.0,0.0,1.2,50
+Random(p=0.6),Always Cooperate,0.4,0.0,0.0,0.0,1.42,50
+Random(p=0.6),Always Cooperate,0.45,0.0,0.0,0.0,1.62,50
+Random(p=0.6),Always Cooperate,0.5,0.0,0.0,0.0,1.94,50
+Random(p=0.6),Always Cooperate,0.55,0.0,0.0,0.0,2.0,50
+Random(p=0.6),Always Cooperate,0.6,0.0,0.0,0.0,2.0,50
+Random(p=0.6),Always Cooperate,0.65,0.0,0.0,0.0,2.04,50
+Random(p=0.6),Always Cooperate,0.7,0.0,0.0,0.0,2.22,50
+Random(p=0.6),Always Cooperate,0.75,0.0,0.0,0.0,2.48,50
+Random(p=0.6),Always Cooperate,0.8,0.0,0.0,0.0,3.0,50
+Random(p=0.6),Always Cooperate,0.85,0.0,0.0,0.0,3.44,50
+Random(p=0.6),Always Cooperate,0.9,0.0,0.0,0.0,4.04,50
+Random(p=0.6),Always Cooperate,0.95,0.0,0.0,0.0,5.6,50
+Random(p=0.6),Always Defect,0.01,0.8139453125,0.06106133526578966,1.0,50.0,50
+Random(p=0.6),Always Defect,0.02,0.8180078125,0.059558634425330576,1.0,50.0,50
+Random(p=0.6),Always Defect,0.05,0.8202734375,0.053575046962064415,1.0,50.0,50
+Random(p=0.6),Always Defect,0.1,0.8553515625,0.054667794372461574,1.0,50.0,50
+Random(p=0.6),Always Defect,0.15,0.88998046875,0.05911709902057895,1.0,49.48,50
+Random(p=0.6),Always Defect,0.2,0.92556640625,0.052005698959207265,1.0,46.5,50
+Random(p=0.6),Always Defect,0.25,0.95505859375,0.050359627644031575,1.0,37.54,50
+Random(p=0.6),Always Defect,0.3,0.96677734375,0.045410312688314025,1.0,31.68,50
+Random(p=0.6),Always Defect,0.35,0.97580078125,0.03688489962487918,1.0,25.3,50
+Random(p=0.6),Always Defect,0.4,0.99265625,0.02498358362671512,1.0,10.56,50
+Random(p=0.6),Always Defect,0.45,0.9900390625,0.028403003726984306,1.0,13.16,50
+Random(p=0.6),Always Defect,0.5,0.99259765625,0.02374857503875489,1.0,10.92,50
+Random(p=0.6),Always Defect,0.55,0.99080078125,0.026200274496546716,1.0,8.92,50
+Random(p=0.6),Always Defect,0.6,0.99775390625,0.00796606976641041,1.0,6.6,50
+Random(p=0.6),Always Defect,0.65,0.99908203125,0.006491019280423379,1.0,4.28,50
+Random(p=0.6),Always Defect,0.7,0.998046875,0.009667475524034835,1.0,3.88,50
+Random(p=0.6),Always Defect,0.75,1.0,0.0,1.0,1.56,50
+Random(p=0.6),Always Defect,0.8,1.0,0.0,1.0,1.32,50
+Random(p=0.6),Always Defect,0.85,1.0,0.0,1.0,1.18,50
+Random(p=0.6),Always Defect,0.9,1.0,0.0,1.0,1.06,50
+Random(p=0.6),Always Defect,0.95,1.0,0.0,1.0,1.0,50
+Random(p=0.6),Random(p=0.2),0.01,0.99923828125,0.002649127253319642,1.0,38.42,50
+Random(p=0.6),Random(p=0.2),0.02,1.0,0.0,1.0,32.12,50
+Random(p=0.6),Random(p=0.2),0.05,1.0,0.0,1.0,26.9,50
+Random(p=0.6),Random(p=0.2),0.1,1.0,0.0,1.0,20.86,50
+Random(p=0.6),Random(p=0.2),0.15,1.0,0.0,1.0,17.62,50
+Random(p=0.6),Random(p=0.2),0.2,1.0,0.0,1.0,15.7,50
+Random(p=0.6),Random(p=0.2),0.25,1.0,0.0,1.0,13.32,50
+Random(p=0.6),Random(p=0.2),0.3,1.0,0.0,1.0,8.88,50
+Random(p=0.6),Random(p=0.2),0.35,1.0,0.0,1.0,7.44,50
+Random(p=0.6),Random(p=0.2),0.4,1.0,0.0,1.0,8.12,50
+Random(p=0.6),Random(p=0.2),0.45,1.0,0.0,1.0,6.6,50
+Random(p=0.6),Random(p=0.2),0.5,0.9994140625,0.004143203796014926,1.0,7.4,50
+Random(p=0.6),Random(p=0.2),0.55,1.0,0.0,1.0,4.82,50
+Random(p=0.6),Random(p=0.2),0.6,1.0,0.0,1.0,4.68,50
+Random(p=0.6),Random(p=0.2),0.65,1.0,0.0,1.0,3.42,50
+Random(p=0.6),Random(p=0.2),0.7,1.0,0.0,1.0,2.76,50
+Random(p=0.6),Random(p=0.2),0.75,1.0,0.0,1.0,3.36,50
+Random(p=0.6),Random(p=0.2),0.8,1.0,0.0,1.0,2.2,50
+Random(p=0.6),Random(p=0.2),0.85,1.0,0.0,1.0,1.86,50
+Random(p=0.6),Random(p=0.2),0.9,1.0,0.0,1.0,1.4,50
+Random(p=0.6),Random(p=0.2),0.95,1.0,0.0,1.0,1.16,50
+Random(p=0.6),Random(p=0.4),0.01,0.99642578125,0.011326217759264103,1.0,42.98,50
+Random(p=0.6),Random(p=0.4),0.02,0.9989453125,0.003935240002737501,1.0,36.94,50
+Random(p=0.6),Random(p=0.4),0.05,1.0,0.0,1.0,27.42,50
+Random(p=0.6),Random(p=0.4),0.1,1.0,0.0,1.0,21.64,50
+Random(p=0.6),Random(p=0.4),0.15,1.0,0.0,1.0,19.06,50
+Random(p=0.6),Random(p=0.4),0.2,1.0,0.0,1.0,16.96,50
+Random(p=0.6),Random(p=0.4),0.25,1.0,0.0,1.0,16.04,50
+Random(p=0.6),Random(p=0.4),0.3,1.0,0.0,1.0,15.62,50
+Random(p=0.6),Random(p=0.4),0.35,1.0,0.0,1.0,14.32,50
+Random(p=0.6),Random(p=0.4),0.4,1.0,0.0,1.0,12.1,50
+Random(p=0.6),Random(p=0.4),0.45,1.0,0.0,1.0,11.36,50
+Random(p=0.6),Random(p=0.4),0.5,1.0,0.0,1.0,10.38,50
+Random(p=0.6),Random(p=0.4),0.55,1.0,0.0,1.0,10.18,50
+Random(p=0.6),Random(p=0.4),0.6,1.0,0.0,1.0,9.56,50
+Random(p=0.6),Random(p=0.4),0.65,1.0,0.0,1.0,8.66,50
+Random(p=0.6),Random(p=0.4),0.7,1.0,0.0,1.0,6.56,50
+Random(p=0.6),Random(p=0.4),0.75,1.0,0.0,1.0,5.7,50
+Random(p=0.6),Random(p=0.4),0.8,1.0,0.0,1.0,6.1,50
+Random(p=0.6),Random(p=0.4),0.85,1.0,0.0,1.0,4.68,50
+Random(p=0.6),Random(p=0.4),0.9,1.0,0.0,1.0,3.92,50
+Random(p=0.6),Random(p=0.4),0.95,1.0,0.0,1.0,3.4,50
+Random(p=0.6),Random(p=0.8),0.01,0.0,0.0,0.0,1.24,50
+Random(p=0.6),Random(p=0.8),0.02,0.0,0.0,0.0,1.4,50
+Random(p=0.6),Random(p=0.8),0.05,0.0,0.0,0.0,2.06,50
+Random(p=0.6),Random(p=0.8),0.1,0.0,0.0,0.0,2.52,50
+Random(p=0.6),Random(p=0.8),0.15,0.0,0.0,0.0,2.9,50
+Random(p=0.6),Random(p=0.8),0.2,0.0,0.0,0.0,2.72,50
+Random(p=0.6),Random(p=0.8),0.25,0.0,0.0,0.0,3.24,50
+Random(p=0.6),Random(p=0.8),0.3,0.0,0.0,0.0,3.5,50
+Random(p=0.6),Random(p=0.8),0.35,0.0,0.0,0.0,3.74,50
+Random(p=0.6),Random(p=0.8),0.4,0.0,0.0,0.0,4.42,50
+Random(p=0.6),Random(p=0.8),0.45,0.0,0.0,0.0,4.4,50
+Random(p=0.6),Random(p=0.8),0.5,0.0,0.0,0.0,4.94,50
+Random(p=0.6),Random(p=0.8),0.55,0.0,0.0,0.0,5.34,50
+Random(p=0.6),Random(p=0.8),0.6,0.0,0.0,0.0,5.76,50
+Random(p=0.6),Random(p=0.8),0.65,0.0,0.0,0.0,5.88,50
+Random(p=0.6),Random(p=0.8),0.7,0.0,0.0,0.0,6.52,50
+Random(p=0.6),Random(p=0.8),0.75,0.0,0.0,0.0,7.16,50
+Random(p=0.6),Random(p=0.8),0.8,0.0,0.0,0.0,7.66,50
+Random(p=0.6),Random(p=0.8),0.85,0.0,0.0,0.0,8.92,50
+Random(p=0.6),Random(p=0.8),0.9,0.0,0.0,0.0,10.44,50
+Random(p=0.6),Random(p=0.8),0.95,0.0,0.0,0.0,13.24,50
+Random(p=0.6),Tit-for-Tat,0.01,0.0,0.0,0.0,1.36,50
+Random(p=0.6),Tit-for-Tat,0.02,0.0196484375,0.13893543395970057,0.02,2.86,50
+Random(p=0.6),Tit-for-Tat,0.05,0.1197265625,0.3275175858111518,0.12,7.68,50
+Random(p=0.6),Tit-for-Tat,0.1,0.29953125,0.46219306098675095,0.3,15.88,50
+Random(p=0.6),Tit-for-Tat,0.15,0.7391015625,0.4425928337917776,0.74,32.7,50
+Random(p=0.6),Tit-for-Tat,0.2,0.959921875,0.19793332487014054,0.96,36.22,50
+Random(p=0.6),Tit-for-Tat,0.25,1.0,0.0,1.0,32.2,50
+Random(p=0.6),Tit-for-Tat,0.3,1.0,0.0,1.0,26.3,50
+Random(p=0.6),Tit-for-Tat,0.35,1.0,0.0,1.0,21.34,50
+Random(p=0.6),Tit-for-Tat,0.4,1.0,0.0,1.0,18.32,50
+Random(p=0.6),Tit-for-Tat,0.45,1.0,0.0,1.0,16.04,50
+Random(p=0.6),Tit-for-Tat,0.5,1.0,0.0,1.0,13.7,50
+Random(p=0.6),Tit-for-Tat,0.55,1.0,0.0,1.0,11.86,50
+Random(p=0.6),Tit-for-Tat,0.6,1.0,0.0,1.0,10.44,50
+Random(p=0.6),Tit-for-Tat,0.65,1.0,0.0,1.0,8.68,50
+Random(p=0.6),Tit-for-Tat,0.7,1.0,0.0,1.0,8.0,50
+Random(p=0.6),Tit-for-Tat,0.75,1.0,0.0,1.0,6.78,50
+Random(p=0.6),Tit-for-Tat,0.8,1.0,0.0,1.0,5.9,50
+Random(p=0.6),Tit-for-Tat,0.85,1.0,0.0,1.0,5.58,50
+Random(p=0.6),Tit-for-Tat,0.9,1.0,0.0,1.0,4.2,50
+Random(p=0.6),Tit-for-Tat,0.95,1.0,0.0,1.0,2.94,50
+Random(p=0.8),Always Cooperate,0.01,0.0,0.0,0.0,1.02,50
+Random(p=0.8),Always Cooperate,0.02,0.0,0.0,0.0,1.04,50
+Random(p=0.8),Always Cooperate,0.05,0.0,0.0,0.0,1.04,50
+Random(p=0.8),Always Cooperate,0.1,0.0,0.0,0.0,1.14,50
+Random(p=0.8),Always Cooperate,0.15,0.0,0.0,0.0,1.22,50
+Random(p=0.8),Always Cooperate,0.2,0.0,0.0,0.0,1.34,50
+Random(p=0.8),Always Cooperate,0.25,0.0,0.0,0.0,1.46,50
+Random(p=0.8),Always Cooperate,0.3,0.0,0.0,0.0,1.52,50
+Random(p=0.8),Always Cooperate,0.35,0.0,0.0,0.0,1.54,50
+Random(p=0.8),Always Cooperate,0.4,0.0,0.0,0.0,1.82,50
+Random(p=0.8),Always Cooperate,0.45,0.0,0.0,0.0,1.9,50
+Random(p=0.8),Always Cooperate,0.5,0.0,0.0,0.0,1.94,50
+Random(p=0.8),Always Cooperate,0.55,0.0,0.0,0.0,2.0,50
+Random(p=0.8),Always Cooperate,0.6,0.0,0.0,0.0,2.08,50
+Random(p=0.8),Always Cooperate,0.65,0.0,0.0,0.0,2.16,50
+Random(p=0.8),Always Cooperate,0.7,0.0,0.0,0.0,2.34,50
+Random(p=0.8),Always Cooperate,0.75,0.0,0.0,0.0,2.78,50
+Random(p=0.8),Always Cooperate,0.8,0.0,0.0,0.0,3.14,50
+Random(p=0.8),Always Cooperate,0.85,0.0,0.0,0.0,3.56,50
+Random(p=0.8),Always Cooperate,0.9,0.0,0.0,0.0,4.16,50
+Random(p=0.8),Always Cooperate,0.95,0.0,0.0,0.0,5.66,50
+Random(p=0.8),Always Defect,0.01,0.96533203125,0.023503217880163917,1.0,48.7,50
+Random(p=0.8),Always Defect,0.02,0.966015625,0.02562790789133282,1.0,47.92,50
+Random(p=0.8),Always Defect,0.05,0.97220703125,0.0205993897222372,1.0,49.0,50
+Random(p=0.8),Always Defect,0.1,0.98123046875,0.020792250836289123,1.0,45.62,50
+Random(p=0.8),Always Defect,0.15,0.99232421875,0.013308318215697622,1.0,32.2,50
+Random(p=0.8),Always Defect,0.2,0.9960546875,0.008472132691721833,1.0,21.56,50
+Random(p=0.8),Always Defect,0.25,0.9988671875,0.004715979597945664,1.0,10.7,50
+Random(p=0.8),Always Defect,0.3,0.99794921875,0.007281911717832257,1.0,8.84,50
+Random(p=0.8),Always Defect,0.35,1.0,0.0,1.0,2.58,50
+Random(p=0.8),Always Defect,0.4,0.99884765625,0.0039787692063652765,1.0,6.26,50
+Random(p=0.8),Always Defect,0.45,0.99884765625,0.00491138800421122,1.0,5.76,50
+Random(p=0.8),Always Defect,0.5,1.0,0.0,1.0,2.14,50
+Random(p=0.8),Always Defect,0.55,1.0,0.0,1.0,1.92,50
+Random(p=0.8),Always Defect,0.6,0.999453125,0.003866990209613929,1.0,2.78,50
+Random(p=0.8),Always Defect,0.65,1.0,0.0,1.0,1.56,50
+Random(p=0.8),Always Defect,0.7,1.0,0.0,1.0,1.44,50
+Random(p=0.8),Always Defect,0.75,0.9993359375,0.004695630968816918,1.0,2.9,50
+Random(p=0.8),Always Defect,0.8,1.0,0.0,1.0,1.06,50
+Random(p=0.8),Always Defect,0.85,1.0,0.0,1.0,1.0,50
+Random(p=0.8),Always Defect,0.9,1.0,0.0,1.0,1.0,50
+Random(p=0.8),Always Defect,0.95,1.0,0.0,1.0,1.0,50
+Random(p=0.8),Random(p=0.2),0.01,1.0,0.0,1.0,19.12,50
+Random(p=0.8),Random(p=0.2),0.02,1.0,0.0,1.0,15.94,50
+Random(p=0.8),Random(p=0.2),0.05,1.0,0.0,1.0,12.74,50
+Random(p=0.8),Random(p=0.2),0.1,1.0,0.0,1.0,11.5,50
+Random(p=0.8),Random(p=0.2),0.15,1.0,0.0,1.0,7.84,50
+Random(p=0.8),Random(p=0.2),0.2,1.0,0.0,1.0,6.02,50
+Random(p=0.8),Random(p=0.2),0.25,1.0,0.0,1.0,4.04,50
+Random(p=0.8),Random(p=0.2),0.3,1.0,0.0,1.0,3.16,50
+Random(p=0.8),Random(p=0.2),0.35,1.0,0.0,1.0,2.64,50
+Random(p=0.8),Random(p=0.2),0.4,1.0,0.0,1.0,2.24,50
+Random(p=0.8),Random(p=0.2),0.45,1.0,0.0,1.0,2.14,50
+Random(p=0.8),Random(p=0.2),0.5,1.0,0.0,1.0,2.2,50
+Random(p=0.8),Random(p=0.2),0.55,1.0,0.0,1.0,2.02,50
+Random(p=0.8),Random(p=0.2),0.6,1.0,0.0,1.0,1.9,50
+Random(p=0.8),Random(p=0.2),0.65,1.0,0.0,1.0,1.78,50
+Random(p=0.8),Random(p=0.2),0.7,1.0,0.0,1.0,1.52,50
+Random(p=0.8),Random(p=0.2),0.75,1.0,0.0,1.0,1.38,50
+Random(p=0.8),Random(p=0.2),0.8,1.0,0.0,1.0,1.16,50
+Random(p=0.8),Random(p=0.2),0.85,1.0,0.0,1.0,1.04,50
+Random(p=0.8),Random(p=0.2),0.9,1.0,0.0,1.0,1.02,50
+Random(p=0.8),Random(p=0.2),0.95,1.0,0.0,1.0,1.0,50
+Random(p=0.8),Random(p=0.4),0.01,1.0,0.0,1.0,17.06,50
+Random(p=0.8),Random(p=0.4),0.02,1.0,0.0,1.0,13.62,50
+Random(p=0.8),Random(p=0.4),0.05,1.0,0.0,1.0,9.92,50
+Random(p=0.8),Random(p=0.4),0.1,1.0,0.0,1.0,7.86,50
+Random(p=0.8),Random(p=0.4),0.15,1.0,0.0,1.0,6.34,50
+Random(p=0.8),Random(p=0.4),0.2,1.0,0.0,1.0,5.32,50
+Random(p=0.8),Random(p=0.4),0.25,1.0,0.0,1.0,4.58,50
+Random(p=0.8),Random(p=0.4),0.3,1.0,0.0,1.0,3.66,50
+Random(p=0.8),Random(p=0.4),0.35,1.0,0.0,1.0,3.34,50
+Random(p=0.8),Random(p=0.4),0.4,1.0,0.0,1.0,2.9,50
+Random(p=0.8),Random(p=0.4),0.45,1.0,0.0,1.0,2.88,50
+Random(p=0.8),Random(p=0.4),0.5,1.0,0.0,1.0,2.36,50
+Random(p=0.8),Random(p=0.4),0.55,1.0,0.0,1.0,2.3,50
+Random(p=0.8),Random(p=0.4),0.6,1.0,0.0,1.0,2.2,50
+Random(p=0.8),Random(p=0.4),0.65,1.0,0.0,1.0,2.14,50
+Random(p=0.8),Random(p=0.4),0.7,1.0,0.0,1.0,2.06,50
+Random(p=0.8),Random(p=0.4),0.75,1.0,0.0,1.0,1.68,50
+Random(p=0.8),Random(p=0.4),0.8,1.0,0.0,1.0,1.66,50
+Random(p=0.8),Random(p=0.4),0.85,1.0,0.0,1.0,1.52,50
+Random(p=0.8),Random(p=0.4),0.9,1.0,0.0,1.0,1.1,50
+Random(p=0.8),Random(p=0.4),0.95,1.0,0.0,1.0,1.08,50
+Random(p=0.8),Random(p=0.6),0.01,1.0,0.0,1.0,22.44,50
+Random(p=0.8),Random(p=0.6),0.02,1.0,0.0,1.0,18.74,50
+Random(p=0.8),Random(p=0.6),0.05,1.0,0.0,1.0,13.82,50
+Random(p=0.8),Random(p=0.6),0.1,1.0,0.0,1.0,10.4,50
+Random(p=0.8),Random(p=0.6),0.15,1.0,0.0,1.0,9.44,50
+Random(p=0.8),Random(p=0.6),0.2,1.0,0.0,1.0,7.96,50
+Random(p=0.8),Random(p=0.6),0.25,1.0,0.0,1.0,7.02,50
+Random(p=0.8),Random(p=0.6),0.3,1.0,0.0,1.0,6.38,50
+Random(p=0.8),Random(p=0.6),0.35,1.0,0.0,1.0,5.86,50
+Random(p=0.8),Random(p=0.6),0.4,1.0,0.0,1.0,5.78,50
+Random(p=0.8),Random(p=0.6),0.45,1.0,0.0,1.0,4.78,50
+Random(p=0.8),Random(p=0.6),0.5,1.0,0.0,1.0,4.74,50
+Random(p=0.8),Random(p=0.6),0.55,1.0,0.0,1.0,4.46,50
+Random(p=0.8),Random(p=0.6),0.6,1.0,0.0,1.0,4.34,50
+Random(p=0.8),Random(p=0.6),0.65,1.0,0.0,1.0,4.02,50
+Random(p=0.8),Random(p=0.6),0.7,1.0,0.0,1.0,4.0,50
+Random(p=0.8),Random(p=0.6),0.75,1.0,0.0,1.0,3.56,50
+Random(p=0.8),Random(p=0.6),0.8,1.0,0.0,1.0,3.06,50
+Random(p=0.8),Random(p=0.6),0.85,1.0,0.0,1.0,2.92,50
+Random(p=0.8),Random(p=0.6),0.9,1.0,0.0,1.0,2.6,50
+Random(p=0.8),Random(p=0.6),0.95,1.0,0.0,1.0,1.92,50
+Random(p=0.8),Tit-for-Tat,0.01,0.0,0.0,0.0,1.34,50
+Random(p=0.8),Tit-for-Tat,0.02,0.0,0.0,0.0,1.62,50
+Random(p=0.8),Tit-for-Tat,0.05,0.0,0.0,0.0,2.18,50
+Random(p=0.8),Tit-for-Tat,0.1,0.0,0.0,0.0,2.84,50
+Random(p=0.8),Tit-for-Tat,0.15,0.0,0.0,0.0,3.56,50
+Random(p=0.8),Tit-for-Tat,0.2,0.0,0.0,0.0,4.18,50
+Random(p=0.8),Tit-for-Tat,0.25,0.0,0.0,0.0,5.44,50
+Random(p=0.8),Tit-for-Tat,0.3,0.0,0.0,0.0,5.98,50
+Random(p=0.8),Tit-for-Tat,0.35,0.0,0.0,0.0,7.14,50
+Random(p=0.8),Tit-for-Tat,0.4,0.0,0.0,0.0,8.56,50
+Random(p=0.8),Tit-for-Tat,0.45,0.0,0.0,0.0,9.54,50
+Random(p=0.8),Tit-for-Tat,0.5,0.0,0.0,0.0,10.88,50
+Random(p=0.8),Tit-for-Tat,0.55,0.0,0.0,0.0,12.54,50
+Random(p=0.8),Tit-for-Tat,0.6,0.0,0.0,0.0,14.82,50
+Random(p=0.8),Tit-for-Tat,0.65,0.0,0.0,0.0,17.04,50
+Random(p=0.8),Tit-for-Tat,0.7,0.0,0.0,0.0,21.3,50
+Random(p=0.8),Tit-for-Tat,0.75,0.0,0.0,0.0,23.2,50
+Random(p=0.8),Tit-for-Tat,0.8,0.0,0.0,0.0,27.42,50
+Random(p=0.8),Tit-for-Tat,0.85,0.000625,0.004419417382415921,0.0,33.32,50
+Random(p=0.8),Tit-for-Tat,0.9,0.00216796875,0.009325814487389117,0.0,38.52,50
+Random(p=0.8),Tit-for-Tat,0.95,0.10615234375,0.20103272912348255,0.06,46.38,50
+Tit-for-Tat,Always Cooperate,0.01,0.009765625,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.02,0.01953125,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.05,0.0498046875,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.1,0.099609375,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.15,0.150390625,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.2,0.2001953125,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.25,0.25,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.3,0.2998046875,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.35,0.349609375,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.4,0.400390625,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.45,0.4501953125,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.5,0.5,0.0,0.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.55,0.5498046875,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.6,0.599609375,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.65,0.650390625,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.7,0.7001953125,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.75,0.75,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.8,0.7998046875,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.85,0.849609375,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.9,0.900390625,0.0,1.0,50.0,50
+Tit-for-Tat,Always Cooperate,0.95,0.9501953125,0.0,1.0,50.0,50
+Tit-for-Tat,Always Defect,0.01,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Always Defect,0.02,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Always Defect,0.05,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Always Defect,0.1,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Always Defect,0.15,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Always Defect,0.2,0.0,0.0,0.0,1.06,50
+Tit-for-Tat,Always Defect,0.25,0.0,0.0,0.0,1.18,50
+Tit-for-Tat,Always Defect,0.3,0.0,0.0,0.0,1.42,50
+Tit-for-Tat,Always Defect,0.35,0.0,0.0,0.0,1.98,50
+Tit-for-Tat,Always Defect,0.4,0.0,0.0,0.0,1.98,50
+Tit-for-Tat,Always Defect,0.45,0.0,0.0,0.0,2.06,50
+Tit-for-Tat,Always Defect,0.5,0.0,0.0,0.0,2.14,50
+Tit-for-Tat,Always Defect,0.55,0.0,0.0,0.0,2.48,50
+Tit-for-Tat,Always Defect,0.6,0.0,0.0,0.0,3.04,50
+Tit-for-Tat,Always Defect,0.65,0.0,0.0,0.0,3.38,50
+Tit-for-Tat,Always Defect,0.7,0.0,0.0,0.0,3.82,50
+Tit-for-Tat,Always Defect,0.75,0.0,0.0,0.0,4.44,50
+Tit-for-Tat,Always Defect,0.8,0.0,0.0,0.0,5.34,50
+Tit-for-Tat,Always Defect,0.85,0.0,0.0,0.0,6.96,50
+Tit-for-Tat,Always Defect,0.9,0.0,0.0,0.0,10.0,50
+Tit-for-Tat,Always Defect,0.95,0.18,0.3880879344916036,0.18,12.72,50
+Tit-for-Tat,Random(p=0.2),0.01,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Random(p=0.2),0.02,0.0,0.0,0.0,1.0,50
+Tit-for-Tat,Random(p=0.2),0.05,0.0,0.0,0.0,1.02,50
+Tit-for-Tat,Random(p=0.2),0.1,0.0,0.0,0.0,1.06,50
+Tit-for-Tat,Random(p=0.2),0.15,0.0,0.0,0.0,1.3,50
+Tit-for-Tat,Random(p=0.2),0.2,0.0,0.0,0.0,1.86,50
+Tit-for-Tat,Random(p=0.2),0.25,0.0,0.0,0.0,2.02,50
+Tit-for-Tat,Random(p=0.2),0.3,0.0,0.0,0.0,2.12,50
+Tit-for-Tat,Random(p=0.2),0.35,0.0,0.0,0.0,2.4,50
+Tit-for-Tat,Random(p=0.2),0.4,0.0,0.0,0.0,2.76,50
+Tit-for-Tat,Random(p=0.2),0.45,0.0,0.0,0.0,3.08,50
+Tit-for-Tat,Random(p=0.2),0.5,0.0,0.0,0.0,3.2,50
+Tit-for-Tat,Random(p=0.2),0.55,0.0,0.0,0.0,3.82,50
+Tit-for-Tat,Random(p=0.2),0.6,0.0,0.0,0.0,4.22,50
+Tit-for-Tat,Random(p=0.2),0.65,0.0,0.0,0.0,4.84,50
+Tit-for-Tat,Random(p=0.2),0.7,0.0,0.0,0.0,5.8,50
+Tit-for-Tat,Random(p=0.2),0.75,0.0,0.0,0.0,6.84,50
+Tit-for-Tat,Random(p=0.2),0.8,0.0,0.0,0.0,8.3,50
+Tit-for-Tat,Random(p=0.2),0.85,0.0,0.0,0.0,10.44,50
+Tit-for-Tat,Random(p=0.2),0.9,0.0,0.0,0.0,14.14,50
+Tit-for-Tat,Random(p=0.2),0.95,0.38,0.4903143514780146,0.38,11.74,50
+Tit-for-Tat,Random(p=0.4),0.01,0.0,0.0,0.0,1.06,50
+Tit-for-Tat,Random(p=0.4),0.02,0.0,0.0,0.0,1.02,50
+Tit-for-Tat,Random(p=0.4),0.05,0.0,0.0,0.0,1.24,50
+Tit-for-Tat,Random(p=0.4),0.1,0.0,0.0,0.0,1.84,50
+Tit-for-Tat,Random(p=0.4),0.15,0.0,0.0,0.0,2.34,50
+Tit-for-Tat,Random(p=0.4),0.2,0.0,0.0,0.0,2.44,50
+Tit-for-Tat,Random(p=0.4),0.25,0.0,0.0,0.0,2.96,50
+Tit-for-Tat,Random(p=0.4),0.3,0.0,0.0,0.0,3.46,50
+Tit-for-Tat,Random(p=0.4),0.35,0.0,0.0,0.0,3.56,50
+Tit-for-Tat,Random(p=0.4),0.4,0.0,0.0,0.0,4.12,50
+Tit-for-Tat,Random(p=0.4),0.45,0.0,0.0,0.0,4.56,50
+Tit-for-Tat,Random(p=0.4),0.5,0.0,0.0,0.0,5.24,50
+Tit-for-Tat,Random(p=0.4),0.55,0.0,0.0,0.0,5.88,50
+Tit-for-Tat,Random(p=0.4),0.6,0.0,0.0,0.0,6.76,50
+Tit-for-Tat,Random(p=0.4),0.65,0.0,0.0,0.0,7.88,50
+Tit-for-Tat,Random(p=0.4),0.7,0.0,0.0,0.0,9.18,50
+Tit-for-Tat,Random(p=0.4),0.75,0.0,0.0,0.0,11.2,50
+Tit-for-Tat,Random(p=0.4),0.8,0.0,0.0,0.0,13.9,50
+Tit-for-Tat,Random(p=0.4),0.85,0.0,0.0,0.0,17.58,50
+Tit-for-Tat,Random(p=0.4),0.9,0.14,0.35050983275386566,0.14,18.6,50
+Tit-for-Tat,Random(p=0.4),0.95,0.68,0.47121207149916117,0.68,8.64,50
+Tit-for-Tat,Random(p=0.6),0.01,0.0,0.0,0.0,1.36,50
+Tit-for-Tat,Random(p=0.6),0.02,0.0,0.0,0.0,1.82,50
+Tit-for-Tat,Random(p=0.6),0.05,0.0,0.0,0.0,3.06,50
+Tit-for-Tat,Random(p=0.6),0.1,0.0,0.0,0.0,3.88,50
+Tit-for-Tat,Random(p=0.6),0.15,0.0,0.0,0.0,4.86,50
+Tit-for-Tat,Random(p=0.6),0.2,0.0,0.0,0.0,5.9,50
+Tit-for-Tat,Random(p=0.6),0.25,0.0,0.0,0.0,6.88,50
+Tit-for-Tat,Random(p=0.6),0.3,0.0,0.0,0.0,8.12,50
+Tit-for-Tat,Random(p=0.6),0.35,0.0,0.0,0.0,8.9,50
+Tit-for-Tat,Random(p=0.6),0.4,0.0,0.0,0.0,10.04,50
+Tit-for-Tat,Random(p=0.6),0.45,0.0,0.0,0.0,11.72,50
+Tit-for-Tat,Random(p=0.6),0.5,0.0,0.0,0.0,13.86,50
+Tit-for-Tat,Random(p=0.6),0.55,0.0,0.0,0.0,15.82,50
+Tit-for-Tat,Random(p=0.6),0.6,0.0,0.0,0.0,18.1,50
+Tit-for-Tat,Random(p=0.6),0.65,0.0,0.0,0.0,21.98,50
+Tit-for-Tat,Random(p=0.6),0.7,0.0,0.0,0.0,26.02,50
+Tit-for-Tat,Random(p=0.6),0.75,0.0,0.0,0.0,31.24,50
+Tit-for-Tat,Random(p=0.6),0.8,0.06021484375,0.23984791202353584,0.06,35.38,50
+Tit-for-Tat,Random(p=0.6),0.85,0.32,0.47121207149916117,0.32,28.92,50
+Tit-for-Tat,Random(p=0.6),0.9,0.64,0.4848732213850611,0.64,18.42,50
+Tit-for-Tat,Random(p=0.6),0.95,0.86177734375,0.3462100754312949,0.86,8.66,50
+Tit-for-Tat,Random(p=0.8),0.01,0.35365234375,0.38369870880309487,0.4,26.74,50
+Tit-for-Tat,Random(p=0.8),0.02,0.614375,0.35861445864059877,0.74,39.8,50
+Tit-for-Tat,Random(p=0.8),0.05,0.88779296875,0.19548782887042504,0.96,47.14,50
+Tit-for-Tat,Random(p=0.8),0.1,0.9928125,0.03408575147540648,1.0,39.86,50
+Tit-for-Tat,Random(p=0.8),0.15,1.0,0.0,1.0,32.72,50
+Tit-for-Tat,Random(p=0.8),0.2,1.0,0.0,1.0,27.74,50
+Tit-for-Tat,Random(p=0.8),0.25,1.0,0.0,1.0,23.06,50
+Tit-for-Tat,Random(p=0.8),0.3,1.0,0.0,1.0,19.78,50
+Tit-for-Tat,Random(p=0.8),0.35,1.0,0.0,1.0,17.12,50
+Tit-for-Tat,Random(p=0.8),0.4,1.0,0.0,1.0,15.36,50
+Tit-for-Tat,Random(p=0.8),0.45,1.0,0.0,1.0,12.48,50
+Tit-for-Tat,Random(p=0.8),0.5,1.0,0.0,1.0,11.04,50
+Tit-for-Tat,Random(p=0.8),0.55,1.0,0.0,1.0,8.76,50
+Tit-for-Tat,Random(p=0.8),0.6,1.0,0.0,1.0,8.0,50
+Tit-for-Tat,Random(p=0.8),0.65,1.0,0.0,1.0,6.9,50
+Tit-for-Tat,Random(p=0.8),0.7,1.0,0.0,1.0,6.04,50
+Tit-for-Tat,Random(p=0.8),0.75,1.0,0.0,1.0,4.98,50
+Tit-for-Tat,Random(p=0.8),0.8,1.0,0.0,1.0,4.42,50
+Tit-for-Tat,Random(p=0.8),0.85,1.0,0.0,1.0,3.46,50
+Tit-for-Tat,Random(p=0.8),0.9,1.0,0.0,1.0,2.94,50
+Tit-for-Tat,Random(p=0.8),0.95,1.0,0.0,1.0,2.14,50

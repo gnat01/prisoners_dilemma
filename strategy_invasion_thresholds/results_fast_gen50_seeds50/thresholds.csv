@@ -1,0 +1,43 @@
+resident,invader,threshold
+Always Cooperate,Always Defect,0.01
+Always Cooperate,Random(p=0.2),0.01
+Always Cooperate,Random(p=0.4),0.01
+Always Cooperate,Random(p=0.6),0.01
+Always Cooperate,Random(p=0.8),0.01
+Always Cooperate,Tit-for-Tat,0.525
+Always Defect,Always Cooperate,
+Always Defect,Random(p=0.2),0.17083333333333334
+Always Defect,Random(p=0.4),0.9
+Always Defect,Random(p=0.6),
+Always Defect,Random(p=0.8),
+Always Defect,Tit-for-Tat,0.03621621621621622
+Random(p=0.2),Always Cooperate,
+Random(p=0.2),Always Defect,0.826923076923077
+Random(p=0.2),Random(p=0.4),
+Random(p=0.2),Random(p=0.6),
+Random(p=0.2),Random(p=0.8),
+Random(p=0.2),Tit-for-Tat,0.0416
+Random(p=0.4),Always Cooperate,
+Random(p=0.4),Always Defect,0.0625
+Random(p=0.4),Random(p=0.2),0.01
+Random(p=0.4),Random(p=0.6),
+Random(p=0.4),Random(p=0.8),
+Random(p=0.4),Tit-for-Tat,0.06190476190476191
+Random(p=0.6),Always Cooperate,
+Random(p=0.6),Always Defect,0.01
+Random(p=0.6),Random(p=0.2),0.01
+Random(p=0.6),Random(p=0.4),0.01
+Random(p=0.6),Random(p=0.8),
+Random(p=0.6),Tit-for-Tat,0.12272727272727273
+Random(p=0.8),Always Cooperate,
+Random(p=0.8),Always Defect,0.01
+Random(p=0.8),Random(p=0.2),0.01
+Random(p=0.8),Random(p=0.4),0.01
+Random(p=0.8),Random(p=0.6),0.01
+Random(p=0.8),Tit-for-Tat,
+Tit-for-Tat,Always Cooperate,0.525
+Tit-for-Tat,Always Defect,
+Tit-for-Tat,Random(p=0.2),
+Tit-for-Tat,Random(p=0.4),0.9333333333333333
+Tit-for-Tat,Random(p=0.6),0.878125
+Tit-for-Tat,Random(p=0.8),0.012941176470588235
