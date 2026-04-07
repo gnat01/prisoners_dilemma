@@ -12,7 +12,10 @@ from pathlib import Path
 
 import numpy as np
 
-from prisoners_dilemma.analysis import (
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from tournament.analysis import (
     cooperation_rate_df,
     matches_to_df,
     player_match_df,
@@ -21,11 +24,11 @@ from prisoners_dilemma.analysis import (
     strategy_round_df,
     strategy_vs_strategy_df,
 )
-from prisoners_dilemma.simulation import create_population, run_tournament
-from prisoners_dilemma.visualizations import plot_all
+from tournament.simulation import create_population, run_tournament
+from tournament.visualizations import plot_all
 
-RESULTS_DIR = Path("prisoners_dilemma/results")
-PLOTS_DIR = Path("prisoners_dilemma/plots")
+RESULTS_DIR = Path("prisoners_dilemma/tournament/results")
+PLOTS_DIR = Path("prisoners_dilemma/tournament/plots")
 
 
 def print_banner(n: int, num_rounds: int) -> None:
