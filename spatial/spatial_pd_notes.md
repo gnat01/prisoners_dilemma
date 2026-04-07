@@ -151,6 +151,64 @@ All plots saved to `spatial/plots/`:
 
 ---
 
+## How To Run
+
+All commands run from the `game_theory/` root directory.
+
+### Basic run (all defaults)
+```bash
+python prisoners_dilemma/spatial/main.py
+```
+32×32 grid · Moore neighbourhood · 20 generations · 5 rounds/match · seed 42 · animations on.
+
+### Skip animations (much faster for quick experiments)
+```bash
+python prisoners_dilemma/spatial/main.py --no-anim
+```
+
+### Full run with all flags explicit
+```bash
+python prisoners_dilemma/spatial/main.py \
+  --side 32 \
+  --generations 20 \
+  --neighbourhood moore \
+  --rounds 5 \
+  --fps 4 \
+  --seed 42 \
+  --output-dir prisoners_dilemma/spatial/plots
+```
+
+### All flags reference
+
+| Flag | Default | Description |
+|---|---|---|
+| `--side` | 32 | Grid side length. Total players = side². |
+| `--generations` | 20 | Number of evolutionary generations (G). |
+| `--neighbourhood` | moore | `moore` (8 neighbours) or `von_neumann` (4 neighbours). |
+| `--rounds` | 5 | Rounds of PD played per match within a generation. |
+| `--fps` | 4 | Animation frames per second for the GIFs. |
+| `--seed` | 42 | Random seed for reproducibility. |
+| `--output-dir` | `prisoners_dilemma/spatial/plots` | Directory for all plots and animations. Created if it doesn't exist. |
+| `--no-anim` | off | Pass this flag to skip GIF generation. |
+
+### Interesting configurations to try
+
+```bash
+# Larger grid — richer cluster structures, more dramatic visuals
+python prisoners_dilemma/spatial/main.py --side 64 --generations 30 --no-anim
+
+# Von Neumann neighbourhood — slower dynamics, more visible boundary effects
+python prisoners_dilemma/spatial/main.py --neighbourhood von_neumann --generations 30
+
+# Different seed — watch how initial placement changes the invasion story
+python prisoners_dilemma/spatial/main.py --seed 7
+
+# Slow animation — easier to follow the cluster dynamics frame by frame
+python prisoners_dilemma/spatial/main.py --fps 2
+```
+
+---
+
 ## What To Try Next
 
 - `--seed N` with different seeds to see how initial random placement affects the invasion dynamics

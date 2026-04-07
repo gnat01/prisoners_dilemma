@@ -12,6 +12,7 @@ CLI flags:
     --rounds        Rounds per match within a generation. Default: 5.
     --fps           Frames per second for animations. Default: 4.
     --seed          Random seed. Default: 42.
+    --output-dir    Directory for all plots and animations. Default: prisoners_dilemma/spatial/plots.
     --no-anim       Skip animation generation (useful for quick runs).
 """
 
@@ -28,7 +29,7 @@ from spatial.grid import run_simulation, STRATEGY_NAMES
 from spatial.visualizations import animate_all, plot_final_static, setup_style
 from spatial.inequality import run_inequality_analysis
 
-PLOTS_DIR = Path("prisoners_dilemma/spatial/plots")
+DEFAULT_OUTPUT_DIR = Path("prisoners_dilemma/spatial/plots")
 
 
 def print_banner(side: int, generations: int, neighbourhood: str, rounds: int) -> None:
@@ -66,6 +67,7 @@ def main(
     rounds: int = 5,
     fps: int = 4,
     seed: int = 42,
+    output_dir: Path = DEFAULT_OUTPUT_DIR,
     no_anim: bool = False,
 ) -> None:
     print_banner(side, generations, neighbourhood, rounds)
@@ -88,16 +90,16 @@ def main(
     setup_style()
 
     print("\nSaving static plots (final generation)...")
-    plot_final_static(history, output_dir=PLOTS_DIR)
+    plot_final_static(history, output_dir=output_dir)
 
     if not no_anim:
         print("\nGenerating animations (this may take a moment)...")
-        animate_all(history, output_dir=PLOTS_DIR, fps=fps)
+        animate_all(history, output_dir=output_dir, fps=fps)
 
     print("\nRunning inequality analysis...")
-    run_inequality_analysis(history, output_dir=PLOTS_DIR)
+    run_inequality_analysis(history, output_dir=output_dir)
 
-    print(f"\nAll output saved to {PLOTS_DIR}/")
+    print(f"\nAll output saved to {output_dir}/")
 
 
 if __name__ == "__main__":
@@ -108,6 +110,7 @@ if __name__ == "__main__":
     parser.add_argument("--rounds",         type=int,   default=5,             help="Rounds per match")
     parser.add_argument("--fps",            type=int,   default=4,             help="Animation frames per second")
     parser.add_argument("--seed",           type=int,   default=42,            help="Random seed")
+    parser.add_argument("--output-dir",     type=Path,  default=DEFAULT_OUTPUT_DIR, help="Directory for all plots and animations")
     parser.add_argument("--no-anim",        action="store_true",               help="Skip animation generation")
     args = parser.parse_args()
 
@@ -118,5 +121,6 @@ if __name__ == "__main__":
         rounds=args.rounds,
         fps=args.fps,
         seed=args.seed,
+        output_dir=args.output_dir,
         no_anim=args.no_anim,
     )
