@@ -161,6 +161,93 @@ python prisoners_dilemma/strategy_invasion_thresholds/main.py --neighbourhood vo
 python prisoners_dilemma/strategy_invasion_thresholds/main.py --generations 50
 ```
 
+### Fast runners
+
+Two faster entry points now live in this directory:
+
+- `main_fast.py` — same fixed PD as before, but with a much faster integer-grid engine and better parallelism
+- `main_fast_payoff_sweep.py` — same fast engine, but with user-specified **Prisoner's Dilemma** payoffs
+
+The payoff-sweep runner exists because invasion thresholds are not fixed truths about TfT, AD, or Random(p) in isolation. They depend on the payoff structure too. If a user changes the temptation payoff `T`, the reward `R`, the punishment `P`, or the sucker payoff `S`, the stability of whole regions of the threshold matrix can change. This makes the tool much more useful for exploring *how* and *when* cooperation breaks down, while still staying inside the Prisoner's Dilemma setting.
+
+### Fast payoff sweep: CLI
+
+Basic run with the standard PD payoffs:
+
+```bash
+python prisoners_dilemma/strategy_invasion_thresholds/main_fast_payoff_sweep.py
+```
+
+Full run with all flags explicit:
+
+```bash
+python prisoners_dilemma/strategy_invasion_thresholds/main_fast_payoff_sweep.py \
+  --side 32 \
+  --generations 50 \
+  --n-seeds 30 \
+  --neighbourhood moore \
+  --rounds 5 \
+  --seed 42 \
+  --n-workers 12 \
+  --T 5 \
+  --R 3 \
+  --P 1 \
+  --S 0 \
+  --output-dir prisoners_dilemma/strategy_invasion_thresholds/results_fast_payoff_sweep \
+  --plots-dir prisoners_dilemma/strategy_invasion_thresholds/plots_fast_payoff_sweep
+```
+
+### Payoff flags
+
+| Flag | Meaning |
+|---|---|
+| `--T` | Temptation to defect: payoff to the defector when facing a cooperator |
+| `--R` | Reward for mutual cooperation |
+| `--P` | Punishment for mutual defection |
+| `--S` | Sucker's payoff: payoff to the cooperator when facing a defector |
+
+Defaults are the current project payoffs:
+
+```text
+T = 5, R = 3, P = 1, S = 0
+```
+
+### Strict PD validation
+
+This runner is intentionally **PD-only**. It does **not** allow arbitrary 2×2 payoff games.
+
+For a run to be accepted, the supplied payoffs must satisfy both:
+
+```text
+T > R > P > S
+2R > T + S
+```
+
+Why these constraints matter:
+
+- `T > R > P > S` is the canonical ordering that makes defection individually tempting, even though mutual cooperation is collectively better than mutual defection
+- `2R > T + S` rules out degenerate cases where alternating exploitation would outperform stable mutual cooperation on average
+
+If either condition fails, `main_fast_payoff_sweep.py` exits immediately with a validation error instead of silently running a non-PD game.
+
+### ASCII dashes only
+
+When calling the CLI, the flag prefix must be the plain ASCII `--`.
+
+Correct:
+
+```bash
+--output-dir results_fast
+```
+
+Incorrect:
+
+```bash
+—-output-dir results_fast
+```
+
+Some rich-text editors such as TextEdit may silently replace `--` with Unicode dashes. If that happens, argparse will report the flags as "unrecognized arguments".
+
 ---
 
 ## Outputs

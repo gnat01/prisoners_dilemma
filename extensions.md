@@ -63,6 +63,14 @@ Status legend: ✅ Implemented · 🔲 Not yet built
 - Ask: can the minority invade and grow, or does it die out?
 - Repeat for every (resident, invader) pair to build an invasion matrix
 
+**Implemented in `strategy_invasion_thresholds/`**
+
+- `main.py` runs the baseline spatial invasion-threshold sweep
+- `main_fast.py` uses a faster integer-grid engine for the same fixed-payoff PD
+- `main_fast_payoff_sweep.py` adds user-specified **Prisoner's Dilemma** payoffs via CLI flags `--T --R --P --S`
+- Payoff sweep mode is intentionally PD-only: runs are accepted only when `T > R > P > S` and `2R > T + S`
+- This lets you test how the invasion threshold matrix shifts as the payoff structure changes, without leaving the Prisoner's Dilemma setting
+
 ---
 
 ## 4. Spatial / Network Structure ✅
