@@ -67,6 +67,16 @@
 - Cooperation is known to survive better on lattices — test this
 - Compare outcomes on random graphs vs clustered networks
 
+### Grid (Spatial Prisoner's Dilemma)
+- Place N players on a √N × √N grid (e.g. 32×32 = 1024 players)
+- Each player plays only against their 4 (von Neumann) or 8 (Moore) immediate neighbours
+- After each generation, each player adopts the strategy of their highest-scoring neighbour (or keeps their own if they won)
+- Visualisations (two side-by-side grid heatmaps):
+  - **Average payoff per grid point** — colour each cell by that player's avg payoff per round across all neighbour matches
+  - **Total payoff per grid point** — colour each cell by cumulative payoff across all neighbour matches
+- Watch spatial clusters of cooperators form, hold boundaries against defectors, and collapse or survive depending on neighbourhood size and strategy mix
+- Animate across generations to see the spatial evolution unfold
+
 ---
 
 ## 5. Asymmetric Payoff Matrices
